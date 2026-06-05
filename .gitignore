@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables / Secrets
+.env
+
+# User Data / Browser Cache
+amazon_profile/
+*.log
+
+# IDE / System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
