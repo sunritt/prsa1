@@ -642,15 +642,15 @@ def generate_product_summaries(df, model, word2idx):
             
         # Extract Aspect-based Categorization
         ASPECT_PATTERNS = {
-            'Battery / Power': r'batter(y|ies)|back.?up|charg(e|ing|er)|power|drain|discharge|cell',
-            'Brightness': r'bright(ness)?|dim|glow|light|lumens|beam|focus|illuminate|intensity',
-            'Value for Money': r'pric(e|y)|value|money|cost|cheap|expens(ive)?|worth|budget|affordable|overpriced',
-            'Build Quality': r'build|sturdy|broke(n)?|crack(ed)?|plastic|heavy|weight|design|finish|material|feel|fragile',
-            'Reliability': r'stop(ped)?|work(ing)?|defect(ive)?|fault(y)?|last(s|ed)?|life(span)?|durable|break|fail(ed)?',
-            'Usability': r'use|function|easy|switch|button|handle|grip|handy|operate|control|convenient|ergonomic',
-            'Size & Portability': r'size|small|big|large|compact|portable|pocket|fit|carry|bulky|dimension',
-            'Packaging & Delivery': r'packag(e|ing)|deliver(y|ed)|box|seal|damage|transit|shipping|courier',
-            'Appearance': r'look(s|ing)?|color|colour|ugly|beautiful|attractive|aesthetic|style'
+            'Battery / Power': r'\b(batter(y|ies)|back.?up|charg(e|ing|er|es)|power|drain|discharge|cell(s)?)\b',
+            'Brightness': r'\b(bright(ness)?|dim|glow|light(s)?|lumen(s)?|beam|focus|illuminate|intensity)\b',
+            'Value for Money': r'\b(pric(e|es|y)|value|money|cost|cheap|expens(ive)?|worth|budget|affordable|overpriced)\b',
+            'Build Quality': r'\b(build|sturd(y|iness)|broke(n)?|break|crack(ed)?|plastic|heavy|weight|design|finish|material|feel|fragile)\b',
+            'Reliability': r'\b(stop(ped)?|work(s|ing|ed)?|defect(ive|s)?|fault(y|s)?|last(s|ed)?|life(span)?|durable|fail(ed|ure)?)\b',
+            'Usability': r'\b(use(d|s|ful)?|function(s|al)?|easy|switch(es)?|button(s)?|handle(s)?|grip|handy|operate|control|convenient|ergonomic)\b',
+            'Size & Portability': r'\b(size|small|big|large|compact|portable|pocket|fit(s)?|carry|bulky|dimension(s)?)\b',
+            'Packaging & Delivery': r'\b(packag(e|ing|ed)|deliver(y|ed|s)|box(es)?|seal(ed)?|damage(d)?|transit|shipping|courier)\b',
+            'Appearance': r'\b(look(s|ing|ed)?|color(s)?|colour(s)?|ugly|beautiful|attractive|aesthetic|style(s)?)\b'
         }
 
         aspects_data = []
@@ -659,7 +659,10 @@ def generate_product_summaries(df, model, word2idx):
             matching_reviews = []
             
             for _, row in pdf.iterrows():
+                # Clean up any '5.0•Title' or '5.0 Title' prefix formatting
                 text = str(row['text'])
+                text = re.sub(r'^\d+\.\d+[\s•]+', '', text).strip()
+                
                 if regex.search(text) and not is_spam_review(text):
                     matching_reviews.append({
                         "body": text,
