@@ -674,12 +674,20 @@ def generate_product_summaries(df, model, word2idx):
                 # Generate specific short summary for this aspect
                 aspect_text_to_summarize = f"Reviews regarding {aspect_name}: "
                 aspect_phrases = []
-                for r in matching_reviews[:12]: # Pull context from top matches
+                for r in matching_reviews[:20]: # Pull context from top matches
                     sentences = re.split(r'[\.!\?]+', r['body'])
                     for s in sentences:
-                        if regex.search(s) and len(s.split()) > 3:
-                            aspect_phrases.append(s.strip())
-                            break
+                        s_lower = s.lower()
+                        if regex.search(s_lower) and len(s.split()) > 3:
+                            # User requested to remove generic 'excellent' phrases
+                            if "excellent" in s_lower:
+                                continue
+                            # Filter other overly generic phrases
+                            generic_count = len(re.findall(r'\b(good|nice|ok|okay|bad|worst|best|super|awesome|great)\b', s_lower))
+                            specificity = len(s.split()) - (generic_count * 2)
+                            if specificity > 2:
+                                aspect_phrases.append(s.strip())
+                                break
                 
                 aspect_text_to_summarize += ". ".join(aspect_phrases[:8])
                 
