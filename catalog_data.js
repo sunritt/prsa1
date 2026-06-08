@@ -6,8 +6,8 @@ const catalogData = [
         "avg_rating": 4.3,
         "sentiment": "Highly Positive",
         "pos_pct": 81.7,
-        "neu_pct": 10.0,
-        "neg_pct": 8.3,
+        "neu_pct": 10.8,
+        "neg_pct": 7.5,
         "strengths": [
             "If you are looking for a wider coverage of light, you should go for tubelight rather than a bulb",
             "Good quality product Desi Jugad  Studio setup, Tubelight are good and also quality buildup, Almost Brightness is good",
@@ -39,9 +39,9 @@ const catalogData = [
             "Don't waste your money Very Bad",
             "No brightness at all",
             "Worthless Bad And Waste products",
-            "Good it's upto the mark"
+            "Bad quality very poor quality"
         ],
-        "summary": "This product has 82% positive reviews. customers heavily praise the following aspects. a wide range of light coverage should be considered. a wide range of light coverage should be considered. a wide range of light coverage should be considered. a wide range of light coverage should be considered. a wide range of light coverage should be considered. a wide range of light coverage should be considered. a wide range of light coverage should be considered. a wide range of light coverage should be considered...........................",
+        "summary": "This product has 82% positive reviews. customers heavily praise the following aspects: tubelight are good. Almost Brightness is good compared to a 10w led bulb.",
         "aspects": [
             {
                 "name": "Brightness",
@@ -62,7 +62,7 @@ const catalogData = [
                 "count": 16,
                 "pos": 14,
                 "neg": 2,
-                "summary": "Reviews regarding Value for money: Worth the money Design was different. Worth every penny Received the product in good condition. Worth every penny Very good quality hai.",
+                "summary": "Reviews regarding Value for money: Worth the money Design was different. Worth every penny Received the product in good condition.",
                 "quotes": [
                     "Awesome Worth of money",
                     "Value-for-money Awesome \ud83d\udc4c",
@@ -76,7 +76,7 @@ const catalogData = [
                 "count": 7,
                 "pos": 4,
                 "neg": 1,
-                "summary": "Review of size & portability: Terrific purchase Brightness is good for small room only. Useful for kitchen n small rooms. Classy product Perfect for bathroom or small room.",
+                "summary": "Reviews regarding size & portability: Terrific purchase Brightness is good for small room only. Useful for kitchen n small rooms. Classy product Perfect for bathroom or small room.",
                 "quotes": [
                     "Nice Too small",
                     "Hated it! Small",
@@ -90,7 +90,7 @@ const catalogData = [
                 "count": 6,
                 "pos": 5,
                 "neg": 1,
-                "summary": "Review of Reliability: It last very long. quick delivery by flipkart.",
+                "summary": "Reviews regarding Reliability: It last very long. quick delivery by flipkart.",
                 "quotes": [
                     "Wonderful Works good",
                     "Absolute rubbish! Stopped working",
@@ -104,7 +104,7 @@ const catalogData = [
                 "count": 4,
                 "pos": 4,
                 "neg": 0,
-                "summary": "Flipkart has reviewed the packaging & delivery process. the review is based on a review of the packaging & delivery process.",
+                "summary": "Flipkart has reviewed reviews regarding packaging & delivery.",
                 "quotes": [
                     "Excellent Quality, price and delivery also awesome.  Thanks.",
                     "Mind-blowing purchase does the work,  quick delivery by flipkart.",
@@ -129,7 +129,7 @@ const catalogData = [
                 "count": 2,
                 "pos": 2,
                 "neg": 0,
-                "summary": "Tubelight is a light-saving light. it is a light-saving light.",
+                "summary": "Tubelight should not be a bulb.",
                 "quotes": [
                     "Worth every penny Review after a year of use. Didn't face any problem. Looks good and worki",
                     "Worth every penny Received the product in good condition. Brighter light compared to a 10w led bulb. If you are looking for a wider coverage of light, you should go for tubelight rather than a bulb."
@@ -140,7 +140,7 @@ const catalogData = [
                 "count": 1,
                 "pos": 1,
                 "neg": 0,
-                "summary": "Reviews regarding Build Quality: Worth the money Design were different. a different review of build quality: Worth the money.",
+                "summary": "Reviews regarding Build Quality: Worth the money Design were different.",
                 "quotes": [
                     "Worth the money Design was different . In photo there is another design. I received normal squarish type lights.  But it surved my purpose.  Packaging must be improved. Cardboard box was wet and torn up from both siz..."
                 ]
@@ -635,7 +635,7 @@ const catalogData = [
                 "rating": 3.0,
                 "title": "3.0\u2022Good",
                 "body": "it's upto the mark,",
-                "sentiment": "Negative"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Kamlesh sen, Jawar",
@@ -997,11 +997,12 @@ const catalogData = [
         "avg_rating": 4.2,
         "sentiment": "Highly Positive",
         "pos_pct": 73.5,
-        "neu_pct": 16.2,
-        "neg_pct": 10.3,
+        "neu_pct": 15.4,
+        "neg_pct": 11.0,
         "strengths": [
             "Worth the money Value for money product, especially useful in the monsoon season and power outages of kerala",
             "Excellent Review after a month : iam living in Chennai so in tornado time this light was very useful",
+            "Good quality product Brightness is low as compare to other 12w bulb,seems like it of 10w",
             "Nice Product was Good but When The Power Was Off  It wasn't Working As An Emergency bulb",
             "Working well with electricity and reduces to 50% of brightness on battery",
             "It was amazing to see glowing bulb in hand",
@@ -1018,8 +1019,7 @@ const catalogData = [
             "Brilliant Low price battery backup must",
             "If power have bulf gives good brightness",
             "Classy product Good product value for money",
-            "Thanks eveready and thanks flipkart",
-            "Mind-blowing purchase Value for money"
+            "Thanks eveready and thanks flipkart"
         ],
         "improvements": [
             "Brightness level could be enhanced",
@@ -1034,12 +1034,12 @@ const catalogData = [
             "Expected a better product Backup only 30 mint",
             "But brightness is very  low better try  philils"
         ],
-        "summary": "This product has 74% positive reviews. customers heavily praise the following aspects. iam living in Chennai so in tornado time this light was very useful. iam living in kerala so in tornado time this light was very useful. iam living in Chennai so in tornado time this light was very useful. iam living in kerala so in tornado time this light was very useful. iam living in Chennai so in tornado time this light was very useful. iam living in..........................",
+        "summary": "Iam living in Chennai so in tornado time this light was very useful. Good quality product Brightness is low as compare to other 12w bulb. works fine and no flickers observed yet.",
         "aspects": [
             {
                 "name": "Brightness",
                 "count": 20,
-                "pos": 8,
+                "pos": 9,
                 "neg": 4,
                 "summary": "Good quality product Brightness is low as compare to other 12w bulb. working well with electricity and reduces to 50% of brightness on battery.",
                 "quotes": [
@@ -1055,7 +1055,7 @@ const catalogData = [
                 "count": 15,
                 "pos": 8,
                 "neg": 4,
-                "summary": "Battery / power is a good product. it's a good product but when the power was off it wasn't working as an emergency bulb.",
+                "summary": "Battery / Power: Working well with electricity and reduces to 50% of brightness on battery. it's charge long lasted for 6+ hours. Just okay Blinking and after power cut it become very low. Nice They sent me bulbs with 3 hrs backup.",
                 "quotes": [
                     "Mind-blowing purchase Backup is good",
                     "Brilliant Low price battery backup must",
@@ -1067,9 +1067,9 @@ const catalogData = [
             {
                 "name": "Value for Money",
                 "count": 13,
-                "pos": 11,
+                "pos": 10,
                 "neg": 2,
-                "summary": "Value for money: classy product value for money. value for money product, especially useful in the monsoon season.",
+                "summary": "Reviews regarding value for money: Classy product. worth every penny Nice product. Worth every penny. Mind-blowing purchase Value for money.",
                 "quotes": [
                     "Value-for-money Good",
                     "Value-for-money Very good",
@@ -1083,7 +1083,7 @@ const catalogData = [
                 "count": 12,
                 "pos": 6,
                 "neg": 3,
-                "summary": "It's charging long lasted for 6+ hours. it's charging long lasted for 6+ hours.",
+                "summary": "It's charge long lasted for 6+ hours. It's working well with electricity and reduces to 50% brightness on battery.",
                 "quotes": [
                     "Simply awesome Does it work.",
                     "Really Nice Working fine . .",
@@ -1097,7 +1097,7 @@ const catalogData = [
                 "count": 5,
                 "pos": 3,
                 "neg": 1,
-                "summary": "Unsatisfactory This bulb goes non-functional after 10 days. Fair Only 70 days work as a inverter bulb now use a basic bulb worst product.",
+                "summary": "Unsatisfactory This bulb goes non-functional after 10 days. only 70 days work as a inverter bulb now use a basic bulb worst product.",
                 "quotes": [
                     "Unsatisfactory This bulb goes non-functional after 10 days",
                     "Fair Only 70 days work as a inverter bulb now use a basic bulb worst product",
@@ -1111,7 +1111,7 @@ const catalogData = [
                 "count": 1,
                 "pos": 0,
                 "neg": 0,
-                "summary": "Build Quality: Just okay Not feel 12w like 5W like 5W like 5W like 5W like 5W like 5W like 5W like 5W like 5W like 5W like 5W like 5W like 5W like 5W like 5W like 5W like 5",
+                "summary": "Reviews regarding Build Quality: Just okay Not feel 12w like 5W like 5w.",
                 "quotes": [
                     "Just okay Not feel 12w like 5W."
                 ]
@@ -1131,7 +1131,7 @@ const catalogData = [
                 "count": 1,
                 "pos": 1,
                 "neg": 0,
-                "summary": "Reviews regarding Appearance: a review of the appearance: a review of the appearance: a review of the appearance: a review of the appearance: a review of the appearance: a review of the appearance",
+                "summary": "Review of Appearance: reviews.",
                 "quotes": [
                     "Must buy! Beautiful product everyday"
                 ]
@@ -1143,7 +1143,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Good quality product",
                 "body": "Brightness is low as compare to other 12w bulb,seems like it of 10w",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Yash Gambhir, New Delhi",
@@ -1955,7 +1955,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Very Good",
                 "body": "Satisfied..Value for Money",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Pankaj Kumar  Varshney, Agra",
@@ -2074,7 +2074,7 @@ const catalogData = [
                 "rating": 2.0,
                 "title": "2.0\u2022Not good",
                 "body": "Poor",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Sumanta  Mahanty, Bankura District",
@@ -2099,9 +2099,9 @@ const catalogData = [
         "reviews": 200,
         "avg_rating": 4.1,
         "sentiment": "Highly Positive",
-        "pos_pct": 78.0,
+        "pos_pct": 77.5,
         "neu_pct": 7.5,
-        "neg_pct": 14.5,
+        "neg_pct": 15.0,
         "strengths": [
             "Mind-blowing purchase I have ordered this product from Flipkart for my stepmom she was happy with the product",
             "Terrific The torch gives a bright, focused beam up to at least 100 feet, and its battery backup is excellent",
@@ -2136,14 +2136,14 @@ const catalogData = [
             "One star is too much for this product",
             "Not good Batry pickup very bad only 30 minutes in Full charges"
         ],
-        "summary": "Terrific The torch gives a bright, focused beam up to at least 100 feet. its battery backup is excellent. the price is good and the price is good. the product has 78% positive reviews. the product has a battery backup. the price is good. the price is good. the price is good. i am amazed. 5 hour with maximum power after that it start dimming. the price is very good.........................",
+        "summary": "Terrific The torch gives a bright, focused beam up to at least 100 feet. its battery backup is excellent. we can't comment on the size because the dimensions were already mentioned.",
         "aspects": [
             {
                 "name": "Value for Money",
                 "count": 43,
                 "pos": 37,
                 "neg": 6,
-                "summary": "Value for money reviews. good product value for money. good quality product.",
+                "summary": "Reviews regarding Value for money: Awesome value for money, good brand with warranty. nice plastic body focus range 250-300 meters very bright side light pocket size, good price impressive.",
                 "quotes": [
                     "Worth the money Ok",
                     "Value-for-money Nice",
@@ -2157,7 +2157,7 @@ const catalogData = [
                 "count": 29,
                 "pos": 10,
                 "neg": 17,
-                "summary": "Battery backup is good around 4_5 hours of backup. good quality battery backup is not as good as expected from such big brand. DL 20 Apollo It gives the desired cut and charges quickly.",
+                "summary": "DL 20 Apollo It gives the desired cut and charges quickly. good product Charging time 2 hrs Backup time 2. Not charging any more.",
                 "quotes": [
                     "Just okay Battery back low",
                     "Moderate Battery health not good",
@@ -2185,7 +2185,7 @@ const catalogData = [
                 "count": 18,
                 "pos": 17,
                 "neg": 0,
-                "summary": "Light weight,easy for carrying. light weight,easy to carry. light weight,easy to carry.",
+                "summary": "Light weight,easy for carrying. nice plastic body focus range 250-300 meters.",
                 "quotes": [
                     "Really Nice Small Torch light Good useful",
                     "Fabulous! Nice Torch \ud83d\udd26 and 1.4w side emergency light",
@@ -2213,7 +2213,7 @@ const catalogData = [
                 "count": 9,
                 "pos": 5,
                 "neg": 2,
-                "summary": "Good build quality. very poor build quality. just okay Not good product material quality poor. runtime up to 3+ hours.",
+                "summary": "Reviews regarding Build Quality: nice plastic body focus range 250-300 meters very bright side light pocket size, good price impressive. light weight,easy for carrying. 30hrs Useful in emergency situations Compact and good build quality. Switch broke after 7days.",
                 "quotes": [
                     "Fair Poor build quality",
                     "Worst experience ever! Switch broke after 7days",
@@ -2227,7 +2227,7 @@ const catalogData = [
                 "count": 9,
                 "pos": 5,
                 "neg": 4,
-                "summary": "I hope it lasts long to give us its required service. unsatisfactory Battery life is very low. switch doesn't work properly.",
+                "summary": "Unsatisfactory Battery life is very low. switch doesn't work properly.",
                 "quotes": [
                     "Pretty good Most durable",
                     "Unsatisfactory Battery life is very low",
@@ -3622,7 +3622,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0\u2022Brilliant",
                 "body": "Full paisa wasool",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Tanmaya Ranjan Behari, Cuttack",
@@ -3668,8 +3668,8 @@ const catalogData = [
         "reviews": 129,
         "avg_rating": 4.6,
         "sentiment": "Highly Positive",
-        "pos_pct": 87.6,
-        "neu_pct": 11.6,
+        "pos_pct": 88.4,
+        "neu_pct": 10.9,
         "neg_pct": 0.8,
         "strengths": [
             "Totally satisfied with the luminous intensity delivery, it covers around 50 feet by 75 feet area very effectively",
@@ -3699,14 +3699,14 @@ const catalogData = [
         "complaints": [
             "Expected a better product It's not working I need to change it or claim again"
         ],
-        "summary": "Teo 18w bulbs have a luminous intensity delivery. the product has 88% positive reviews. customers praise the quality and brightness of the bulb. a good product is expected to be better. a better product is not working. a better product is not working. a better product is not working. a better product is not working. a better product is not working. a better product is not working. a better product is not working. a better..................",
+        "summary": "This product has 88% positive reviews. customers heavily praise the following aspects: Totally satisfied with the luminous intensity delivery, it covers around 50 feet by 75 feet area very effectively.",
         "aspects": [
             {
                 "name": "Brightness",
                 "count": 28,
-                "pos": 24,
+                "pos": 25,
                 "neg": 0,
-                "summary": "Luminous intensity delivery is good but the design is quite clumsy. Really Nice The light output is acceptable.",
+                "summary": "Brightness: Good LED Light BUT Dissapointing Seller. Totally satisfied with the luminous intensity delivery. the design is quite clumsy.",
                 "quotes": [
                     "Just wow! Good light",
                     "Nice Bright light is low",
@@ -3720,7 +3720,7 @@ const catalogData = [
                 "count": 28,
                 "pos": 28,
                 "neg": 0,
-                "summary": "Value for money average price of this product is $80. good quality product. good value for money.",
+                "summary": "Value for money average price for a bright led buld. good quality product. nice under budget.",
                 "quotes": [
                     "Good choice Worth it",
                     "Value-for-money Ok ok",
@@ -3734,7 +3734,7 @@ const catalogData = [
                 "count": 6,
                 "pos": 3,
                 "neg": 0,
-                "summary": "Size & portability: 40W LED light is big in size and requires careful packing. I bought these teo 18w bulbs for big drawing room, replacing two 30w CFL.",
+                "summary": "I bought these teo 18w bulbs for big drawing room, replacing two 30w CFL. Does the job The Company is reducing the size of the bulb every year.",
                 "quotes": [
                     "Does the job a small product",
                     "Awesome Size is a little big for B22, otherwise it is wonderful \ud83d\udc4c Go for it",
@@ -3748,7 +3748,7 @@ const catalogData = [
                 "count": 5,
                 "pos": 4,
                 "neg": 0,
-                "summary": "Packaging was delivered as promised. luminous intensity delivery covers around 50 feet by 75 feet area.",
+                "summary": "Packaging done by seller was HORRIBLE to say the least. it covers around 50 feet by 75 feet area very effectively.",
                 "quotes": [
                     "Simply awesome This is a original products delivered",
                     "Excellent Very bright. It is for big room or for office use. The brightness is just like the Sun. Size is big see image However packaging was not safe.",
@@ -3762,7 +3762,7 @@ const catalogData = [
                 "count": 4,
                 "pos": 3,
                 "neg": 0,
-                "summary": "Reviews regarding appearance: Value-for-money Average all prize this product lighting is looking. in the logo of the company bulb it is looking bigger in size but in reality in MFD:05/2023 look into the size it is already reduced and in this.",
+                "summary": "Reviews regarding Appearance: Value-for-money Average all prize this product lighting is looking. in the logo of the company bulb it is looking bigger in size but in reality in MFD:05/2023 look into the size it is already reduced.",
                 "quotes": [
                     "Terrific Beautiful",
                     "Value-for-money Average all prize this product lighting is looking",
@@ -3787,7 +3787,7 @@ const catalogData = [
                 "count": 2,
                 "pos": 1,
                 "neg": 0,
-                "summary": "Build quality: Fair Brightness is OK but the design is quite clumsy.",
+                "summary": "Build Quality: Fair Brightness is OK but the design is quite clumsy.",
                 "quotes": [
                     "Worth every penny Super Quality, Heavy bright  \ud83d\udd25\ud83d\udd25\ud83d\udc9e",
                     "Fair Brightness is OK but the design is quite  clumsy."
@@ -3798,7 +3798,7 @@ const catalogData = [
                 "count": 2,
                 "pos": 2,
                 "neg": 0,
-                "summary": "Review of Usability: It is for big room or for office use. Highly recommended.",
+                "summary": "Reviews regarding Usability: It is for big room or for office use. Highly recommended So far not used but seems good.",
                 "quotes": [
                     "Highly recommended So far not used but seems good",
                     "Excellent Very bright. It is for big room or for office use. The brightness is just like the Sun. Size is big see image However packaging was not safe."
@@ -4616,7 +4616,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Very Good",
                 "body": "Bright is good",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Manjeet Kumar, Kera Khera",
@@ -4718,9 +4718,9 @@ const catalogData = [
         "reviews": 143,
         "avg_rating": 4.2,
         "sentiment": "Highly Positive",
-        "pos_pct": 79.7,
-        "neu_pct": 9.1,
-        "neg_pct": 11.2,
+        "pos_pct": 80.4,
+        "neu_pct": 7.0,
+        "neg_pct": 12.6,
         "strengths": [
             "Terrific purchase Bulb lighting and brightness week ,and blub backup in only 2 hours defects only one bulb",
             "Worth every penny Brilliant light  after current off low lights up to 4 hours",
@@ -4745,23 +4745,23 @@ const catalogData = [
         ],
         "improvements": [
             "Light quality/output needs attention",
-            "Brightness level could be enhanced"
+            "Battery backup duration should be increased"
         ],
         "complaints": [
             "Useless product Dont buy this bulb  not swith on after powercut,it's behave like normal bulb",
             "Did not meet expectations It doesn't turned on after power cut",
-            "Could be way better Not up the mark",
-            "Utterly Disappointed I'm  not happy  with this product",
-            "Useless product Not glowing during power cut"
+            "Horrible Write 4 hour backup but only 30 minutes backup",
+            "Good Back up no 4 hrs    back up 3 hrs",
+            "Could be way better Not up the mark"
         ],
-        "summary": "80% positive reviews from customers. blub backup in only 2 hours defects only one bulb. 80% positive reviews. blub backup in only 2 hours defects only one bulb...................................................",
+        "summary": "This product has 80% positive reviews. customers heavily praise the following aspects: Terrific purchase Bulb lighting and brightness week. blub backup in only 2 hours defects only one bulb.",
         "aspects": [
             {
                 "name": "Value for Money",
                 "count": 18,
                 "pos": 17,
                 "neg": 1,
-                "summary": "Reviews regarding Value for money: Worth every penny Best quality. Awesome This product is value for money. Worth every penny Brilliant light  after current off low lights up to 4 hours. Worth every penny Very good Inverter Bulb. Good product value for money product  good",
+                "summary": "Reviews regarding Value for money: Worth every penny Best quality. Awesome This product is value for money. Worth the money Little low brightness 5-6 Watt like.",
                 "quotes": [
                     "Value-for-money Good",
                     "Worth the money Good",
@@ -4773,9 +4773,9 @@ const catalogData = [
             {
                 "name": "Battery / Power",
                 "count": 12,
-                "pos": 5,
-                "neg": 5,
-                "summary": "Reviews regarding Battery / Power: Horrible Write 4 hour backup but only 30 minutes backup. good back up no 4 hrs back up 3 hrs.",
+                "pos": 6,
+                "neg": 6,
+                "summary": "Reviews regarding Battery / Power: Horrible Write 4 hour backup but only 30 minutes backup. Good Back up no 4 hrs back up 3 hrs. Terrific purchase Bulb lighting and brightness week,and blub backup in only 2 hours defects only one bulb.",
                 "quotes": [
                     "Excellent Good backup",
                     "Great product Battery backup is good",
@@ -4787,7 +4787,7 @@ const catalogData = [
             {
                 "name": "Brightness",
                 "count": 12,
-                "pos": 9,
+                "pos": 10,
                 "neg": 2,
                 "summary": "Reviews regarding Brightness: Terrific purchase Bulb lighting and brightness week. blub backup in only 2 hours defects only one bulb. Worth every penny Brilliant light  after current off low lights up to 4 hours.",
                 "quotes": [
@@ -4803,7 +4803,7 @@ const catalogData = [
                 "count": 7,
                 "pos": 6,
                 "neg": 1,
-                "summary": "Reviews regarding Reliability: Terrific purchase Bulb lighting and brightness week. blub backup in only 2 hours defects only one bulb. working good in some day's.",
+                "summary": "Reviews regarding Reliability: Terrific purchase Bulb lighting and brightness week. blub backup in only 2 hours defects only one bulb.",
                 "quotes": [
                     "Delightful Good working",
                     "Worst experience ever! Not working",
@@ -4817,7 +4817,7 @@ const catalogData = [
                 "count": 1,
                 "pos": 1,
                 "neg": 0,
-                "summary": "Reviews regarding Build Quality: Good quality product Very nice product build quality nice                       ",
+                "summary": "Reviews regarding Build Quality: Good quality product Very nice product build quality nice.",
                 "quotes": [
                     "Good quality product Very nice product build quality nice \ud83d\udc4d"
                 ]
@@ -4827,7 +4827,7 @@ const catalogData = [
                 "count": 1,
                 "pos": 1,
                 "neg": 0,
-                "summary": "Appearance is of light warm colour not white but does the job.",
+                "summary": "Reviews regarding Appearance: Highly recommended Good product. is of light warm colour not white but does the job.",
                 "quotes": [
                     "Highly recommended Good product , it is of light warm colour not white but does the job"
                 ]
@@ -4839,14 +4839,14 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Horrible",
                 "body": "Write 4 hour backup but only 30 minutes backup",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "RAQUIB MALLICK, South Twenty Four Parganas District",
                 "rating": 3.0,
                 "title": "3.0\u2022Good",
                 "body": "Back up no 4 hrs    back up 3 hrs",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "RAGHAV  SHROTRIYA, Bhilwara",
@@ -5175,7 +5175,7 @@ const catalogData = [
                 "rating": 2.0,
                 "title": "2.0\u2022Not good",
                 "body": "Very low brightness",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Flipkart Customer, Rudraprayag District",
@@ -5448,7 +5448,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Good quality product",
                 "body": "It would be fine if the battery charging time gets a little better and if the brightness is improved a little more then it would be fine, otherwise everything is fine.",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "Harish Hari, Sidco Industrial Estate Jakkasandra",
@@ -5844,14 +5844,16 @@ const catalogData = [
         "reviews": 205,
         "avg_rating": 4.3,
         "sentiment": "Highly Positive",
-        "pos_pct": 76.6,
-        "neu_pct": 13.7,
+        "pos_pct": 77.1,
+        "neu_pct": 13.2,
         "neg_pct": 9.8,
         "strengths": [
             "Highly recommended This is a very good product, I would definitely buy it if it comes at this price",
             "I bought this for my grandmother and it is very easy for her to use",
             "If the company could just change the on-off switch little, it would be even better",
+            "Out of 5 starsApr 2026 was the time of purchase & cost was INR 160",
             "But mrp on the product is 265 and I had to pay 305",
+            "Awesome product and better than the others by the way it's a popular company",
             "Terrific purchase This is very good product because  This torch distance cover higher distance",
             "I could have bought it from any shop for 265 only",
             "Out of 5 starsVery comfy and easy to carry torch",
@@ -5863,11 +5865,9 @@ const catalogData = [
             "Design is good but battery backup little bit less as expected",
             "Good item with bright light, recharges quickly, pocket friendly, must buy",
             "Only thing that needs improvement is the chargin",
-            "Out of 5 starsThis product is worth buying",
             "An use it for personal indoor use",
             "Wonderful Superb quality ans awesome battery thank you flipkart",
-            "Mind-blowing purchase Very compact and powerful",
-            "Terrific purchase All products are great of Eveready"
+            "Mind-blowing purchase Very compact and powerful"
         ],
         "improvements": [
             "Switch/button mechanism needs to be more reliable",
@@ -5881,14 +5881,14 @@ const catalogData = [
             "I used it only when there was no current",
             "Horrible Got out of order after first charging"
         ],
-        "summary": "This product has 77% positive reviews. customers heavily praise the following aspects. mrp on the product is 265 and I had to pay 305. mrp on the product is 265 and I had to pay 305. mrp on the product is 265 and it's a good price. mrp on the product is 265 and it's a good price. mrp on the product is 265 and it's a good price..........................",
+        "summary": "This product has 77% positive reviews. customers heavily praise the following aspects: Highly recommended This is a very good product, I would definitely buy it if it comes at this price.",
         "aspects": [
             {
                 "name": "Value for Money",
                 "count": 25,
                 "pos": 19,
                 "neg": 2,
-                "summary": "Reviews regarding Value for money: Price fluctuations are too much. Simply awesome Nice product Value for money. Worth every penny Very good product nice. Terrific value for money. Worth every penny Nice and very bright.",
+                "summary": "Reviews regarding value for money: Price fluctuations are too much. Simply awesome Nice product Value for money. Highly recommended This is a very good product.",
                 "quotes": [
                     "Value-for-money Nice",
                     "Worth every penny Nice",
@@ -5902,7 +5902,7 @@ const catalogData = [
                 "count": 13,
                 "pos": 4,
                 "neg": 6,
-                "summary": "Reviews regarding Battery / Power: Wonderful Superb quality ans awesome battery thank you flipkart. Design is good but battery backup little bit less as expected. Does the job Very small size with less power. Utterly Disappointed Very low back up. Nice Product Good overall battery",
+                "summary": "Reviews regarding Battery / Power: Wonderful Superb quality ans awesome battery thank you flipkart. Design is good but battery backup little bit less as expected.",
                 "quotes": [
                     "Fair Battery backup not good",
                     "Utterly Disappointed Very low back up",
@@ -5916,7 +5916,7 @@ const catalogData = [
                 "count": 13,
                 "pos": 8,
                 "neg": 3,
-                "summary": "Reviews regarding Brightness: Good item with bright light, recharges quickly, pocket friendly, must buy. Worth every penny Nice and very bright. just okay The lights are bright enough but the switch is too hard for smooth operation.",
+                "summary": "Reviews regarding Brightness: Good item with bright light, recharges quickly, pocket friendly, must buy. Worth every penny Nice and very bright. Just okay The lights are bright enough but the switch is too hard for smooth operation.",
                 "quotes": [
                     "Best in the market! Best pocket Light",
                     "Worth every penny Nice and very bright",
@@ -5930,7 +5930,7 @@ const catalogData = [
                 "count": 12,
                 "pos": 8,
                 "neg": 2,
-                "summary": "A good product I bought this for my grandmother and it is very easy to use. it's good quality and handy and also handy.",
+                "summary": "I bought this for my grandmother and it is very easy to use. Expected a better product Switch is not user friendly.",
                 "quotes": [
                     "Super! Nice Product For Use",
                     "out of 5 starsEveready very handy.",
@@ -5942,9 +5942,9 @@ const catalogData = [
             {
                 "name": "Size & Portability",
                 "count": 12,
-                "pos": 8,
-                "neg": 0,
-                "summary": "Good product but battery life is soo small. good quality and decent. does the job Very small size. good item with bright light, recharge quickly, pocket friendly, must buy.",
+                "pos": 7,
+                "neg": 1,
+                "summary": "Reviews regarding size & portability: Good Nice product but battery life is soo small. good item with bright light, recharge quickly, pocket friendly, must buy.",
                 "quotes": [
                     "Must buy! Best Pocket Torch",
                     "Decent product Very small size",
@@ -5958,7 +5958,7 @@ const catalogData = [
                 "count": 4,
                 "pos": 0,
                 "neg": 4,
-                "summary": "Reviews regarding Reliability: Moderate After 3 days not working properly.",
+                "summary": "Reviews regarding Reliability: Moderate After 3 days not working properly. Slightly disappointed Battery proper not working.",
                 "quotes": [
                     "Moderate After 3 days not working properly.",
                     "Slightly disappointed Battery proper not working",
@@ -7085,7 +7085,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Nice product",
                 "body": "Most buy. Awesome product and better than the others by the way it's a popular company\ud83d\udcab\ud83d\udcab\ud83d\udcab.",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Tilak Nath, Kamrup District",
@@ -7295,14 +7295,14 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsValue for money. Recommended.",
                 "body": "",
-                "sentiment": "Negative"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Venkat",
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsBright and compact. Lanyard missing. Type c wud hv been good",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Placeholder",
@@ -7323,7 +7323,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsThis product is worth buying",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Manyusha",
@@ -7351,7 +7351,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsNice \ud83d\udd26",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Srivatsan",
@@ -7379,7 +7379,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsApr 2026 was the time of purchase & cost was INR 160 .",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Syeda",
@@ -7407,21 +7407,21 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsExcellent",
                 "body": "",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "Sweeny Alphie",
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsFriend",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Mir Yaseer",
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsBackup",
                 "body": "",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             }
         ],
         "image": "images/DL100Pocket.jpg"
@@ -7432,50 +7432,50 @@ const catalogData = [
         "reviews": 96,
         "avg_rating": 4.4,
         "sentiment": "Highly Positive",
-        "pos_pct": 72.9,
-        "neu_pct": 18.8,
-        "neg_pct": 8.3,
+        "pos_pct": 80.2,
+        "neu_pct": 12.5,
+        "neg_pct": 7.3,
         "strengths": [
+            "Out of 5 starsSmall size and decent lighting Small size, rechargeable, branded torch thats just perfect for mild personal use",
             "Out of 5 starsYou can get better than this The colour of the torch will not be of your choice",
             "10%0:00Stream TypeLIVESeek to live, currently behind liveLIVERemaining Time-0:131xPlayback RateChaptersChaptersDescriptionsdescriptions off, selectedCaptionsCaptions off, selectedEnglish (Automated)Audio Trackdefault, selectedFullscreenThis is a modal window",
             "The edges are angular that ensure it doesn't roll over when you place it on a surface",
             "Out of 5 starsGood quality Quality is very good and it is cheaper than retailer shop in my locality",
             "Out of 5 starsLight through is best Brightness of both led is quite sufficient, Also charging time is fast",
+            "Out of 5 starsOk for price Looks sturdy but the slider switch came off on first use",
             "Out of 5 starsEveready This is too good bright light ,led as well for 169rs it's totally worth it",
             "Out of 5 starsSmall but effective Very good beam and side light ,good quality at this price meets the requirements",
+            "Out of 5 starsvalue for money very handy , value for money, last approximately 2 hours",
             "Out of 5 starsWorth money/beam and brightness I will give 5 star for this product",
             "I hav charged it full and using it for around 5 mins in 2 days",
             "Out of 5 starsWorthy one Very good , I used for night trekking 4hours charge stands",
+            "Out of 5 starsHow to select colour The torch is pocket friendly,,, brightness A1",
             "Out of 5 starsDl101 good portable torch Very portable use any carry in pocket easily",
             "Out of 5 starsPocket Torch with Balanced performance Pocket Torch with Balanced performance",
             "Clips on shirt for handsfree operation, and bright enough at the price point",
             "Out of 5 starsGood product Battery backup is not good lasts for 2 hours only",
             "Brightness is full of all the lumens you can jmagine considering the size",
-            "Out of 5 starsEveready DL mini light Yes, I would recommend this product",
-            "Out of 5 starsGo for if you want under 2 hour battery backup",
-            "The stand like design on the bottom serves well for this purpose",
-            "The best part is the clip on its side which helps hands free usage",
-            "Out of 5 starsGood product I wanted yellow color but got blue"
+            "Out of 5 starsEveready DL mini light Yes, I would recommend this product"
         ],
         "improvements": [
-            "Product lifespan needs to be extended",
-            "Brightness level could be enhanced"
+            "Switch/button mechanism needs to be more reliable",
+            "Charging system needs improvement"
         ],
         "complaints": [
-            "Out of 5 starsvalue for money very handy , value for money, last approximately 2 hours",
-            "Out of 5 starsHow to select colour The torch is pocket friendly,,, brightness A1",
-            "Out of 5 starsValue for money product Value for money product",
+            "Out of 5 starsReliable The sliding switch mechanism is more reliable then then the click button ones",
             "Feels like it would break if it falls on ground",
-            "Out of 5 starsDurability On off battan old type"
+            "Out of 5 starsDurability On off battan old type",
+            "Out of 5 starsPoor build quality Torch intensity is good",
+            "Out of 5 starsCompact rechargeable Perfect"
         ],
-        "summary": "Out of 5 starsThe colour of the torch will not be of your choice. the colour of the torch will not be of your choice. the product has 73% positive reviews. customers heavily praise the colour of the torch. the product has 73% positive reviews. a modal window is available. the edges are angular that ensure it doesn't roll over when you place it on a surface. out of 5 starsLight through is best Brightness of both led is quite sufficient. out of 5..........................",
+        "summary": "Out of 5 starsThe colour of the torch will not be of your choice. the edges are angular that ensure it doesn't roll over when you place it on a surface.",
         "aspects": [
             {
                 "name": "Brightness",
                 "count": 37,
-                "pos": 30,
+                "pos": 32,
                 "neg": 3,
-                "summary": "Out of 5 starsIt is smaal in size but good in light Good light recommended for who want pocket torch with good light. out of 5 starsGood product Nice light throw and good battery backup comes around 1. out of 5 starsGo for it Useful, good battery",
+                "summary": "It is bright enough for emergency use, night walks, emergency light use. out of 5 starsIt is smaal in size but good in light Good light recommended for who want pocket torch with good light.",
                 "quotes": [
                     "out of 5 starsGood Good light.",
                     "out of 5 starsTorch light Value for maney",
@@ -7487,9 +7487,9 @@ const catalogData = [
             {
                 "name": "Value for Money",
                 "count": 27,
-                "pos": 20,
-                "neg": 3,
-                "summary": "Out of 5 starsValue for money. out of 5 starsWorth money/beam and brightness.",
+                "pos": 23,
+                "neg": 0,
+                "summary": "Out of 5 starsValue for money is a great value for money.",
                 "quotes": [
                     "out of 5 starsValue for money Nice",
                     "out of 5 starsTorch light Value for maney",
@@ -7501,9 +7501,9 @@ const catalogData = [
             {
                 "name": "Usability",
                 "count": 25,
-                "pos": 18,
+                "pos": 21,
                 "neg": 1,
-                "summary": "Out of 5 starsSmall size and decent lighting Small size, rechargeable, branded torch that\u2019s just perfect for mild personal use. out of 5 starsI find it bulky The video showcases the product in use.",
+                "summary": "Out of 5 starsI find it bulky The video showcases the product in use.",
                 "quotes": [
                     "out of 5 starsLED Torch Good and Handy Torch",
                     "out of 5 starsHandy to use, It IS WORTH OF MONEY..",
@@ -7515,9 +7515,9 @@ const catalogData = [
             {
                 "name": "Size & Portability",
                 "count": 25,
-                "pos": 20,
+                "pos": 22,
                 "neg": 1,
-                "summary": "Out of 5 starsBest quality product with long range and lighting modes. smaal in size but good in light Good light recommended for who want pocket torch with good light.",
+                "summary": "Out of 5 starsIt is smaal in size but good in light Good light recommended for who want pocket torch with good light.",
                 "quotes": [
                     "out of 5 starsGood pocket size Good",
                     "out of 5 starsNice Small yet powerful.",
@@ -7529,9 +7529,9 @@ const catalogData = [
             {
                 "name": "Battery / Power",
                 "count": 21,
-                "pos": 14,
-                "neg": 1,
-                "summary": "Battery backup low. can be charged with any micro USB charger. out of 5 starsGood product Nice light throw and good battery backup comes around 1. out of 5 starsGo for it Useful, good battery life, light weight. out of 5 starsSuper power Super.",
+                "pos": 18,
+                "neg": 0,
+                "summary": "It comes with a rechargeable built-in battery and can last a week of emergency use on a single full charge. out of 5 starsGo for it Useful, good battery life, light weight.",
                 "quotes": [
                     "out of 5 starsSuper power Super",
                     "out of 5 starsBattery backup is very good Very good product",
@@ -7543,9 +7543,9 @@ const catalogData = [
             {
                 "name": "Reliability",
                 "count": 13,
-                "pos": 8,
-                "neg": 2,
-                "summary": "Out of 5 starsGo for it Useful, good battery life, light weight. out of 5 starsNice Working on. out of 5 starsvalue for money very handy, value for money, last approximately 2 hours.",
+                "pos": 10,
+                "neg": 0,
+                "summary": "Out of 5 starsGood for small treks Elegant and thoightful design, Light weight extremely portable, Very powerful light and brightnessOnly downside is the battery life it doesn't last even for an hour.",
                 "quotes": [
                     "out of 5 starsNice Working on",
                     "out of 5 starsGo for it Useful, good battery life , light weight",
@@ -7557,9 +7557,9 @@ const catalogData = [
             {
                 "name": "Build Quality",
                 "count": 11,
-                "pos": 8,
+                "pos": 9,
                 "neg": 1,
-                "summary": "Out of 5 starsGo for it Useful, good battery life, light weight. the design has been well though over. Button is easy to feel in the dark. out of 5 starsGo for it Useful, good battery life.",
+                "summary": "Out of 5 starsGo for it Useful, good battery life, light weight. the design has been well though over. Button is easy to feel in the dark.",
                 "quotes": [
                     "out of 5 starsGo for it Useful, good battery life , light weight",
                     "out of 5 starsColor different but ok Different color received. Heavy brightness. Value for money",
@@ -7571,9 +7571,9 @@ const catalogData = [
             {
                 "name": "Appearance",
                 "count": 10,
-                "pos": 5,
-                "neg": 3,
-                "summary": "Out of 5 starsGood product I wanted yellow color but got blue. out of 5 starsI ordered black colour instead of yellow color. out of 5 starsThe colour of the torch will not be of your choice.",
+                "pos": 10,
+                "neg": 0,
+                "summary": "Out of 5 starsGood product I wanted yellow color but got blue. out of 4 starsReview I have given 4 because I did not receive the yellow color as I ordered, also it has a minor mark of molding.",
                 "quotes": [
                     "out of 5 starsGood product I wanted yellow color but got blue",
                     "out of 5 starsColor different but ok Different color received. Heavy brightness. Value for money",
@@ -7587,7 +7587,7 @@ const catalogData = [
                 "count": 3,
                 "pos": 3,
                 "neg": 0,
-                "summary": "Out of 5 starsDaily need torch Delivery time is ok, product is ok. will damage eyes for sure and permanent like lazer.",
+                "summary": "Out of 5 starsDaily need torch Delivery time is ok. will damage eyes for sure and permanent like lazer.",
                 "quotes": [
                     "out of 5 starsDaily need torch Delivery time is ok, product is ok",
                     "out of 5 starsSuperb focus in night. Nice. Body seems delicate and required required to handle with care.  Pressing a little hard may cause damage to it. A fully charged works longer.",
@@ -7643,7 +7643,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsSmall size and decent lighting",
                 "body": "Small size, rechargeable, branded torch that\u2019s just perfect for mild personal use. Can be charged with any micro USB charger. Battery backup and product quality is  decent. Looks cute.",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "SAI KRISHNA",
@@ -7685,7 +7685,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsEssential item for every household",
                 "body": "Though very small it serves the purpose a basic simple emergency torch light",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Veeru",
@@ -7699,7 +7699,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 stars\ud83d\udc4d",
                 "body": "Very nice",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Krishnapriya",
@@ -7797,7 +7797,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsvalue for money",
                 "body": "very handy , value for money, last approximately 2 hours. provided clip is very useful.",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "Chiragg Parekh",
@@ -7818,7 +7818,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsReliable",
                 "body": "The sliding switch mechanism is more reliable then then the click button ones.",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Saiful",
@@ -7860,7 +7860,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsExcellent",
                 "body": "Nice quality",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Amit S.",
@@ -7881,7 +7881,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsValue for money",
                 "body": "Value for money",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Razi",
@@ -7902,7 +7902,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsValue for money \ud83d\udcb0 product \ud83d\udc4c",
                 "body": "Good product \ud83d\udc4c \ud83d\udc4d best value for money \ud83d\udcb0 \ud83e\udd11 nice looking \ud83d\udc4c",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "atul purandare",
@@ -7951,7 +7951,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsReview",
                 "body": "I have given 4 because I did not receive the yellow color as I ordered, also it has a minor mark of molding",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "sb@kgp",
@@ -7972,7 +7972,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsDurable",
                 "body": "Long time battery backup & good brightness",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Pallab Kumar Bose",
@@ -8021,7 +8021,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsIt's Good",
                 "body": "It's Good",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "PRADEEP SINGH",
@@ -8070,7 +8070,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsValue for money product",
                 "body": "Value for money product. Battery life is satisfactory. Product usability is good. The clip quality could have been better",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "Shobhit sinha",
@@ -8112,14 +8112,14 @@ const catalogData = [
                 "rating": 3.0,
                 "title": "3.0 out of 5 starsOk for price",
                 "body": "Looks sturdy but the slider switch came off on first use. Will have to stick it back. Light is adequate.",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Mario",
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsHow to select colour",
                 "body": "The torch is pocket friendly,,, brightness A1... I would like to purchase again....How to select colour..?? Can anyone help",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "Jb Magar",
@@ -8161,7 +8161,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsCompact rechargeable",
                 "body": "Perfect",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "deepak deshwal",
@@ -8196,7 +8196,7 @@ const catalogData = [
                 "rating": 3.0,
                 "title": "3.0 out of 5 starsBattery backup is very good",
                 "body": "Very good product",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "prasanna",
@@ -8238,7 +8238,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsOkayish",
                 "body": "Good for 150 rupees",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Bk Naga",
@@ -8266,7 +8266,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsNice",
                 "body": "Small yet powerful.",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             }
         ],
         "image": "images/DL101.jpg"
@@ -8315,14 +8315,14 @@ const catalogData = [
             "Very poor As per price it is not good item",
             "The button will destroy within 2-3 months"
         ],
-        "summary": "This product has 77% positive reviews. customers heavily praise the following aspects. portable size easy to hold brightness of both lights are sufficient for outdoor or indoor use. charging system needs improvement. price-to-value ratio could be better. switch/button mechanism needs to be more reliable.......................................",
+        "summary": "This product has 77% positive reviews. customers heavily praise the following aspects: Portable size easy to hold brightness of both lights are sufficient for outdoor or indoor use. the charging light turns green within minutes,and you can disconnect it.",
         "aspects": [
             {
                 "name": "Value for Money",
                 "count": 48,
                 "pos": 39,
                 "neg": 7,
-                "summary": "Value for money. good quality in this budget. weight is low. good Handler. Great product.",
+                "summary": "Reviews regarding value for money: Very good at 269 price point. good quality in this budget, weight is low, good Handler. great product Best quality Torch value on money.",
                 "quotes": [
                     "Value-for-money Ok",
                     "Worth every penny Go",
@@ -8336,7 +8336,7 @@ const catalogData = [
                 "count": 38,
                 "pos": 34,
                 "neg": 1,
-                "summary": "DL 99 comes with yellowish light (which quite be useful for fog) but the range of DL 99 is far better than DL99.",
+                "summary": "DL 99 comes with yellowish light (which quite be useful for fog) but the range of DL 96 is far better than DL99.",
                 "quotes": [
                     "Very Good Good light weight",
                     "Waste of money! To small . Low light",
@@ -8350,7 +8350,7 @@ const catalogData = [
                 "count": 28,
                 "pos": 22,
                 "neg": 3,
-                "summary": "Battery 500 mah too small, but a good battery. a good battery pack.",
+                "summary": "Battery 500 mah too small. charg backup to 12 day.",
                 "quotes": [
                     "Terrific Nice battery",
                     "Moderate Charging problem",
@@ -8364,7 +8364,7 @@ const catalogData = [
                 "count": 16,
                 "pos": 12,
                 "neg": 1,
-                "summary": "Good quality in this budget, weight is low, good Handler. good torch with high beam light No cable for rechargeing. good battery with less price.",
+                "summary": "Good quality in this budget, weight is low, good Handler. very light weight product and medium sized product Daily use good product with less price its good. super duper kevvu keka  Prodact no 1 Lite weight",
                 "quotes": [
                     "Very Good Good light weight",
                     "Really Nice Improve build quality",
@@ -8378,7 +8378,7 @@ const catalogData = [
                 "count": 15,
                 "pos": 11,
                 "neg": 1,
-                "summary": "DL 99 comes with yellowish light (which quite be useful for fog) but the range of DL 99 is far better than DL99.",
+                "summary": "DL 99 comes with yellowish light (which quite be useful for fog) but the range of DL 96 is far better than DL99.",
                 "quotes": [
                     "Highly recommended Very nice  And useful",
                     "Terrific Very bright and easy to use \ud83c\udf1e \u2728\ufe0f",
@@ -8392,7 +8392,7 @@ const catalogData = [
                 "count": 14,
                 "pos": 6,
                 "neg": 6,
-                "summary": "Size & portability: Everything good and compact size but battery 500 mah too small. not recommended at all Small product.",
+                "summary": "Reviews regarding Size & Portability: Everything good and compact size but battery 500 mah too small. Portable size easy to hold brightness of both lights are sufficient for outdoor or indoor use.",
                 "quotes": [
                     "Decent product Small size",
                     "Very poor Very small size",
@@ -8406,7 +8406,7 @@ const catalogData = [
                 "count": 10,
                 "pos": 8,
                 "neg": 1,
-                "summary": "Reviews regarding Packaging & Delivery: Good quality product Nice product and delivery too.",
+                "summary": "Reviews regarding Packaging & Delivery: Good quality product Nice product and delivery too Only packing need to improve.",
                 "quotes": [
                     "Slightly disappointed Damage item",
                     "Really Nice very quick delivery.thank you.",
@@ -8420,7 +8420,7 @@ const catalogData = [
                 "count": 6,
                 "pos": 5,
                 "neg": 1,
-                "summary": "Everady is best in quality wise, nice balanced brightness. will review after six months for durability and battery.",
+                "summary": "Everady is best in quality wise, nice balanced brightness, will review after six months for durability and battery, now it's fine working, flipkart deliver in time.",
                 "quotes": [
                     "Delightful Good work",
                     "Delightful Dont know the battery life after using i will review it",
@@ -10552,8 +10552,8 @@ const catalogData = [
         "reviews": 28,
         "avg_rating": 4.2,
         "sentiment": "Highly Positive",
-        "pos_pct": 71.4,
-        "neu_pct": 25.0,
+        "pos_pct": 75.0,
+        "neu_pct": 21.4,
         "neg_pct": 3.6,
         "strengths": [
             "I think that Amazon should black list these sellers who dare to send these things in such a miserable state",
@@ -10566,6 +10566,7 @@ const catalogData = [
             "Very bright light and strong build quality",
             "It comes with 3 eveready battery",
             "Worth every penny Good product iam so happy",
+            "Nice Works fine came with batteries inside",
             "Worth every penny A good quality product",
             "Good quality n small prize",
             "Wonderful Nice product in this price",
@@ -10576,14 +10577,14 @@ const catalogData = [
         ],
         "improvements": [],
         "complaints": [],
-        "summary": "This product has 71% positive reviews. customers heavily praise the following aspects. amazon should black list sellers who dare to send these things in such a miserable state. the light coverage is good For such price it is way better than any rechargeable torch. the torch is very compact with reasonable light throw at an affordable price. iam so happy. Worth every penny Good product iam so happy. Good quality n small prize...................................",
+        "summary": "This product has 75% positive reviews. customers heavily praise the following aspects. amazon should black list sellers who dare to send these things in such a miserable state. the light coverage is good For such price it is way better than any rechargeable torch.",
         "aspects": [
             {
                 "name": "Value for Money",
                 "count": 12,
                 "pos": 12,
                 "neg": 0,
-                "summary": "Value for money Good quality. good new battery is given inside to use it. good new battery is given inside to use it.",
+                "summary": "Value for money Good quality. Simply go for it Nice in this price range also very good packaging. Worth every penny Good product iam so happy.",
                 "quotes": [
                     "Excellent Value for money \ud83d\udcb0",
                     "Value-for-money Good product",
@@ -10595,7 +10596,7 @@ const catalogData = [
             {
                 "name": "Battery / Power",
                 "count": 5,
-                "pos": 3,
+                "pos": 4,
                 "neg": 0,
                 "summary": "Nice Works fine came with batteries inside. inactive torch The torch does not light up even with new battery.",
                 "quotes": [
@@ -10611,7 +10612,7 @@ const catalogData = [
                 "count": 5,
                 "pos": 4,
                 "neg": 0,
-                "summary": "The torch is very compact with reasonable light throw at an affordable price. the light coverage is good for such price it is way better than any rechargeable torch.",
+                "summary": "Inactive torch The torch does not light up even with new battery. light coverage is good for such price it is way better than any rechargeable torch.",
                 "quotes": [
                     "Excellent Nice  torch in this price. Very bright light and strong build quality.",
                     "Compact torch. The torch is very compact with reasonable light throw at an affordable price.",
@@ -10623,9 +10624,9 @@ const catalogData = [
             {
                 "name": "Reliability",
                 "count": 3,
-                "pos": 0,
+                "pos": 1,
                 "neg": 1,
-                "summary": "Batteries working only 1 week. batteries working only 1 week.",
+                "summary": "Batteries working only 1 week. nice works fine came with batteries inside.",
                 "quotes": [
                     "Hated it! No working",
                     "Nice Works fine came with batteries inside",
@@ -10637,7 +10638,7 @@ const catalogData = [
                 "count": 3,
                 "pos": 3,
                 "neg": 0,
-                "summary": "The torch is very compact with reasonable light throw at an affordable price. good quality n small prize.",
+                "summary": "The torch is very compact with reasonable light throw at an affordable price.",
                 "quotes": [
                     "Just wow! Good quality n small prize \ud83d\udc4d\ud83d\udc4d",
                     "Worth the buy Product is good new battery is given inside to use it. Portable",
@@ -10649,7 +10650,7 @@ const catalogData = [
                 "count": 2,
                 "pos": 1,
                 "neg": 0,
-                "summary": "Reviews regarding Build Quality: Very bright light and strong build quality..",
+                "summary": "Reviews regarding Build Quality: Very bright light and strong build quality.",
                 "quotes": [
                     "Good Sturdy",
                     "Excellent Nice  torch in this price. Very bright light and strong build quality."
@@ -10714,7 +10715,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "Nice",
                 "body": "Works fine came with batteries inside",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "RUPAK BHATTACHARYA",
@@ -10871,33 +10872,29 @@ const catalogData = [
         "name": "DL47Mega",
         "reviews": 8,
         "avg_rating": 4.5,
-        "sentiment": "Mixed",
-        "pos_pct": 37.5,
-        "neu_pct": 25.0,
-        "neg_pct": 37.5,
+        "sentiment": "Highly Positive",
+        "pos_pct": 87.5,
+        "neu_pct": 12.5,
+        "neg_pct": 0.0,
         "strengths": [
+            "More than expected  A good quality product with a good material and its heavy plastic",
             "Plastic torches have a short life, more so for LED ones",
             "Bright LED with good focus & range, even with a plain reflector",
             "Received a dull black piece, without any glow-in-the-dark part",
-            "Awesome Torch Awesome, its Range is minimum 100 metres,It's Body is too Good",
-            "Bright focussed beam of light"
-        ],
-        "improvements": [
-            "Product lifespan needs to be extended",
-            "Price-to-value ratio could be better"
-        ],
-        "complaints": [
-            "More than expected  A good quality product with a good material and its heavy plastic",
             "A useful thing in a cheap price",
+            "Awesome Torch Awesome, its Range is minimum 100 metres,It's Body is too Good",
+            "Bright focussed beam of light",
             "Value for money"
         ],
-        "summary": "This product has 38% positive reviews. customers heavily praise the following aspects. a dull black piece, without any glow-in-the-dark part. a dull black piece, without any glow-in-the-dark part. a price-to-value ratio could be better. a. price-to-value ratio could be better................................ ",
+        "improvements": [],
+        "complaints": [],
+        "summary": "This product has 88% positive reviews. customers heavily praise the following aspects: more than expected A good quality product with a good material and its heavy plastic. a dull black piece, without any glow-in-the-dark part.",
         "aspects": [
             {
                 "name": "Value for Money",
                 "count": 3,
-                "pos": 0,
-                "neg": 3,
+                "pos": 3,
+                "neg": 0,
                 "summary": "Reviews regarding value for money: A useful thing in a cheap price. budget friendly but need to improve quality Comes in different colour.",
                 "quotes": [
                     "Short handle. It is ok.Value for money.",
@@ -10908,9 +10905,9 @@ const catalogData = [
             {
                 "name": "Build Quality",
                 "count": 3,
-                "pos": 1,
-                "neg": 2,
-                "summary": "Reviews regarding Build Quality: More than expected. plastic quality is very poor but it's budget friendly.",
+                "pos": 3,
+                "neg": 0,
+                "summary": "Plastic torches have a short life, more so for LED ones. budget friendly but need to improve quality Comes in different colour.",
                 "quotes": [
                     "More than expected \ud83d\udc4d\ud83c\udffb A good quality product with a good material and its heavy plastic.A useful thing in a cheap price. Satisfied \ud83d\udc4d\ud83c\udffb",
                     "Budget friendly but need to improve quality Comes in different colour , plastic quality is very poor but it's budget friendly so overall good buy.",
@@ -10920,9 +10917,9 @@ const catalogData = [
             {
                 "name": "Usability",
                 "count": 3,
-                "pos": 1,
-                "neg": 2,
-                "summary": "The switch comes on momentarily, on a light press, and hands-free on when pushed up. the switch comes on momentarily, on a light press, as well as hands-free on when pushed up.",
+                "pos": 3,
+                "neg": 0,
+                "summary": "The switch comes on momentarily, on a light press, as well as hands-free on when pushed up. the switch has a unique feature.",
                 "quotes": [
                     "Short handle. It is ok.Value for money.",
                     "More than expected \ud83d\udc4d\ud83c\udffb A good quality product with a good material and its heavy plastic.A useful thing in a cheap price. Satisfied \ud83d\udc4d\ud83c\udffb",
@@ -10934,7 +10931,7 @@ const catalogData = [
                 "count": 2,
                 "pos": 2,
                 "neg": 0,
-                "summary": "Reviews regarding Brightness: Bright focussed beam of light. a plain reflector and a clear reflector are also included.",
+                "summary": "Reviews regarding Brightness: Bright focussed beam of light. bright LED with good focus & range.",
                 "quotes": [
                     "Bright focussed beam of light. Good. Bright focussed beam of light.",
                     "GOOD, for now. Bright LED with good focus & range, even with a plain reflector.Plastic torches have a short life, more so for LED ones.But this one has a unique feature -- the switch comes on momentarily,on a light press, as well as hands-free on when pushed up, just like the brasstorches of yesteryears.Received a dull black piece, without any glow-in-the-dark part."
@@ -10953,8 +10950,8 @@ const catalogData = [
             {
                 "name": "Appearance",
                 "count": 1,
-                "pos": 0,
-                "neg": 1,
+                "pos": 1,
+                "neg": 0,
                 "summary": "Reviews regarding Appearance: Budget friendly but need to improve quality Comes in different colour. plastic quality is very poor but it's budget friendly so overall good buy.",
                 "quotes": [
                     "Budget friendly but need to improve quality Comes in different colour , plastic quality is very poor but it's budget friendly so overall good buy."
@@ -10967,7 +10964,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "More than expected \ud83d\udc4d\ud83c\udffb",
                 "body": "A good quality product with a good material and its heavy plastic.A useful thing in a cheap price. Satisfied \ud83d\udc4d\ud83c\udffb",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "V A.",
@@ -10988,7 +10985,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "Short handle.",
                 "body": "It is ok.Value for money.",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "Indranath Banerjee",
@@ -11009,14 +11006,14 @@ const catalogData = [
                 "rating": 3.0,
                 "title": "Budget friendly but need to improve quality",
                 "body": "Comes in different colour , plastic quality is very poor but it's budget friendly so overall good buy.",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "roy abraham",
                 "rating": 4.0,
                 "title": "Torch",
                 "body": "Good",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             }
         ],
         "image": "images/DL47Mega.jpg"
@@ -11027,9 +11024,9 @@ const catalogData = [
         "reviews": 300,
         "avg_rating": 4.3,
         "sentiment": "Highly Positive",
-        "pos_pct": 81.0,
-        "neu_pct": 9.0,
-        "neg_pct": 10.0,
+        "pos_pct": 80.7,
+        "neu_pct": 8.7,
+        "neg_pct": 10.7,
         "strengths": [
             "Side light is not that bright but at 130 a piece its a gre",
             "1st lasted more than 2 hours and 2nd lasted almost 2 hours which is good",
@@ -11040,6 +11037,7 @@ const catalogData = [
             "Terrific purchase Everything thing is excellent, design, charging and it's light",
             "This compact, rechargeable torch is incredibly handy and user-friendly",
             "Too good torch it as use as emergency table lamp also",
+            "Very Good Bright light, battery and build quality to be improved",
             "Unlike chinese torches, maintains continuous intensity of light",
             "Classy product Very nice and compact product, easy to handle",
             "Light weight and small size pocket torch light",
@@ -11049,8 +11047,7 @@ const catalogData = [
             "Terrific I tested both sidelight battery backup",
             "Excellent Suparb battery backup   Superb brightness according to size",
             "Highly recommended Very nice product , value for money",
-            "Terrific It's an amazing pocket friendly product",
-            "Good choice Product is good but the size is very small"
+            "Terrific It's an amazing pocket friendly product"
         ],
         "improvements": [
             "Charging system needs improvement",
@@ -11064,14 +11061,14 @@ const catalogData = [
             "After charging getting drained so fast Not working properly",
             "Not recommended at all Charge capacity very low time"
         ],
-        "summary": "This product has 81% positive reviews. customers heavily praise the following aspects. 1st lasted more than 2 hours and 2nd lasted almost 2 hours. a gre. 1st lasted more than 2 hours. a gre. 1st lasted more than 2 hours. a gre. 1st lasted more than 2 hours. a gre. 1st lasted more than 2 hours. a gre. 1st lasted more than 2..........................",
+        "summary": "1st lasted more than 2 hours and 2nd lasted almost 2 hours which is good. good quality, strong material, best battery back up, powerful light, good distance of torch light, 300 meters.",
         "aspects": [
             {
                 "name": "Value for Money",
                 "count": 46,
                 "pos": 40,
                 "neg": 5,
-                "summary": "Value for money product. Worth every penny Nice product. Worth every penny.",
+                "summary": "Value for money product. Worth every penny Nice product. worth every penny.",
                 "quotes": [
                     "Waste of money! Bad",
                     "Value-for-money Nice",
@@ -11083,9 +11080,9 @@ const catalogData = [
             {
                 "name": "Battery / Power",
                 "count": 29,
-                "pos": 11,
+                "pos": 12,
                 "neg": 14,
-                "summary": "Product purchased in 2025 but the rechargeable battery inside is manufactured in 2018. Wonderful Torch is very good Fast charging Long light.",
+                "summary": "Product purchased in June 2025 but the rechargeable battery inside is manufactured in 2018. Wonderful Torch is very good Fast charging Long light. Terrific I tested both sidelight battery backup.",
                 "quotes": [
                     "Horrible Charging pin brok",
                     "Waste of money! Charge problem",
@@ -11097,7 +11094,7 @@ const catalogData = [
             {
                 "name": "Brightness",
                 "count": 25,
-                "pos": 22,
+                "pos": 23,
                 "neg": 2,
                 "summary": "Brightness: Brilliant Good, side light is also very useful.",
                 "quotes": [
@@ -11141,7 +11138,7 @@ const catalogData = [
                 "count": 15,
                 "pos": 2,
                 "neg": 9,
-                "summary": "Reviews regarding Reliability: 1st lasted more than 2 hours and 2nd lasted almost 2 hours which is good. good product but after 3 months charging port not working properly.",
+                "summary": "Reviews regarding Reliability: 1st lasted more than 2 hours. 2nd lasted almost 2 hours which is good.",
                 "quotes": [
                     "Fair Not working properly",
                     "Hated it! Battery life very bad",
@@ -11153,7 +11150,7 @@ const catalogData = [
             {
                 "name": "Build Quality",
                 "count": 5,
-                "pos": 4,
+                "pos": 5,
                 "neg": 0,
                 "summary": "Reviews regarding Build Quality: Design cute and comfortable. Light weight and small size pocket torch light.",
                 "quotes": [
@@ -11169,7 +11166,7 @@ const catalogData = [
                 "count": 5,
                 "pos": 5,
                 "neg": 0,
-                "summary": "Review of Appearance: Classy product. excellent service and product.",
+                "summary": "Reviews regarding Appearance: Classy product Very nice and beautiful service and product. Brilliant Very handy and beautiful finished product.",
                 "quotes": [
                     "Wonderful So beautiful",
                     "Wonderful Beautiful\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d product",
@@ -11757,7 +11754,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0\u2022Just wow!",
                 "body": "Amezing",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Deepak Kumar Rout, Cuttack",
@@ -12541,7 +12538,7 @@ const catalogData = [
                 "rating": 1.0,
                 "title": "1.0\u2022Just wow!",
                 "body": "Your product is right",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Sampak  Roy, Dhenkanal",
@@ -12954,7 +12951,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Very Good",
                 "body": "Bright light, battery and build quality to be improved.",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Darshan Bikash Saikia, Golaghat",
@@ -13302,8 +13299,8 @@ const catalogData = [
         "avg_rating": 4.1,
         "sentiment": "Highly Positive",
         "pos_pct": 73.0,
-        "neu_pct": 12.9,
-        "neg_pct": 14.0,
+        "neu_pct": 10.4,
+        "neg_pct": 16.5,
         "strengths": [
             "Powerful Eveready Searchlite Is Extremely Useful For Hiking Trekking Night Safaris And Many More Outdoor Activities At Night",
             "Terrific Reviewing it after 1 week use  Light 10/10 Build quality 8/10 Backup 10/10 Charging time 6/10",
@@ -13313,7 +13310,7 @@ const catalogData = [
             "Good choice The torch is very good and has a long range, I liked it very much",
             "Worth every penny Very good lights and product quality must be buy value for money",
             "Classy product Nice product I like it  Value for money Flash is high  Very bright",
-            "Out of 5 starsIts good one but sometimes gets stuck during we swtich it on",
+            "Out of 5 starsExcellent torch but price drastically decreased in just one day",
             "Worth every penny I am reviewing after using it for 4 months",
             "But haven't use for long time, so can't comment on battery durability",
             "Nice product  But if the brightness is a little bit higher than the product is awesome",
@@ -13328,24 +13325,23 @@ const catalogData = [
         ],
         "improvements": [
             "Brightness level could be enhanced",
-            "Light quality/output needs attention",
-            "Price-to-value ratio could be better"
+            "Light quality/output needs attention"
         ],
         "complaints": [
             "Flipkart mentioned 6 months warranty on the product but they did not provide any of the warranty card or else",
             "Expected a better product I'm use this bettry only 2week led brightness is almost lost",
             "Out of 5 starsFailed in 2 Months  Not Safe for Night Farming Conditions",
             "Don't waste your money It's not a Eveready company fake local product Its",
-            "Out of 5 starsExcellent torch but price drastically decreased in just one day"
+            "Out of 5 starsIts good one but sometimes gets stuck during we swtich it on"
         ],
-        "summary": "This product has 73% positive reviews. customers heavily praise the following aspects. the product is super light and has a long range. the price is just awesome. the torch is very good and has long range. if the brightness is higher than the product is awesome, the brightness level could be enhanced. the price-to-value ratio could be better. the price is good and the price is good. the product is very good and has long range. I like it Value for money. Flash is high Very..........................",
+        "summary": "This product has 73% positive reviews. customers heavily praise the following aspects: Powerful Eveready Searchlite is Extremely Useful For Hiking Trekking Night Safaris And Many More Outdoor Activities At Night.",
         "aspects": [
             {
                 "name": "Value for Money",
                 "count": 42,
-                "pos": 33,
+                "pos": 34,
                 "neg": 5,
-                "summary": "Value for money: Really nice This flashlight is ok but a bit expensive. a little expensive and has Type C code.",
+                "summary": "Reviews regarding value for money: Really Nice This flashlight is ok but a bit expensive and has Type C code. Mind-blowing purchase Good product with this price. Simply awesome Very good product for this price range battery backup superb and I am use emergency light this is very useful. Worth",
                 "quotes": [
                     "Worth the money Super",
                     "Good choice Value for",
@@ -13357,9 +13353,9 @@ const catalogData = [
             {
                 "name": "Brightness",
                 "count": 41,
-                "pos": 36,
-                "neg": 4,
-                "summary": "Light is powerful. classy product Light Emitting capability of torch is superb. super good product for this price range battery backup superb.",
+                "pos": 34,
+                "neg": 6,
+                "summary": "Reviews regarding Brightness: Delightful The light is very powerful. classy product Light Emitting capability of torch is superb.",
                 "quotes": [
                     "Brilliant Light perfect",
                     "out of 5 starsSearch light",
@@ -13373,7 +13369,7 @@ const catalogData = [
                 "count": 29,
                 "pos": 17,
                 "neg": 9,
-                "summary": "Battery backup is good but not as expected. a good product for this price range.",
+                "summary": "Battery timing is not 6 and 10 hours only 2 hours working. super good product for this price range battery backup superb.",
                 "quotes": [
                     "out of 5 starsLow power",
                     "out of 5 starsNot charging",
@@ -13387,7 +13383,7 @@ const catalogData = [
                 "count": 20,
                 "pos": 6,
                 "neg": 12,
-                "summary": "DL95 rechargeable torch,4x torch life,5xbattery life,super fast charging,over charge protection,4modes of light,3. Highly recommended.",
+                "summary": "Reviews regarding Reliability: Does the job Battery timing is not 6 and 10 hours only 2 hours working. Highly recommended Everready Search light DL95, 4 w rechargeable torch,4x torch life,5xbattery life,super fast charging,over charge",
                 "quotes": [
                     "Awesome Nice work",
                     "out of 5 starsProduct defect",
@@ -13415,7 +13411,7 @@ const catalogData = [
                 "count": 12,
                 "pos": 10,
                 "neg": 1,
-                "summary": "Build quality 8/10 Backup 10/10 Charging time 6/10. a torch light is very good and affordable. weight of the light is very low that's amazing.",
+                "summary": "Build quality 8/10 Backup 10/10 Charging time 6/10. It's weight is very light. Worth every penny Light weight, heavy looking, High light.",
                 "quotes": [
                     "out of 5 starsVery bad design.",
                     "Highly recommended Best Reasonable Light weight",
@@ -13429,7 +13425,7 @@ const catalogData = [
                 "count": 3,
                 "pos": 2,
                 "neg": 1,
-                "summary": "Out of 5 starsFast delivery. out of 5 starsDefective item delivered. out of 5 starsDefective item delivered. out of 5 starsDefective item delivered. out of 5 starsDefective item delivered. out of 5 starsDefective item delivered",
+                "summary": "Reviews regarding Packaging & Delivery: Box having: Torch, C type data. out of 5 starsDefective item delivered.",
                 "quotes": [
                     "out of 5 starsFast delivery",
                     "out of 5 starsDefective item delivered.",
@@ -14868,7 +14864,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsNice",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "A farmer from South",
@@ -14882,7 +14878,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsD",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "9795905889",
@@ -14910,7 +14906,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsAcha hai",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Sonu Kumar",
@@ -14924,14 +14920,14 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsOk product",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Bhavin Panchal",
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsProduct Quality is overall ok",
                 "body": "",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "Geetanjali Bhardwaj",
@@ -14952,7 +14948,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsTouch",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Kandasamy Raja",
@@ -14973,7 +14969,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsQuality",
                 "body": "",
-                "sentiment": "Negative"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Babasaheb dheple",
@@ -15001,7 +14997,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsNearly a 125cc bike headlight",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Amazon Customer",
@@ -15022,7 +15018,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsExllelant Superb",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Nisar",
@@ -15064,7 +15060,7 @@ const catalogData = [
                 "rating": 3.0,
                 "title": "3.0 out of 5 starsDisappointing",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Luvky",
@@ -15092,14 +15088,14 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsExcited product",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Pradeep Krishnaswamy",
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsReview and suggestions",
                 "body": "",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "Sakthikumar",
@@ -15155,21 +15151,21 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsBest",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Deepa Jiyo",
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsIts good one but sometimes gets stuck during we swtich it on.",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Wanlamborlang Chyne",
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsSearch light",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Placeholder",
@@ -15183,7 +15179,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starscharging issue please provide me good condition itom",
                 "body": "",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "Anjali singh rajput",
@@ -15204,7 +15200,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsIncompatible charching cable",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "S P SWAIN",
@@ -15218,7 +15214,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsToo light product",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "FaiZ Abbas",
@@ -15316,7 +15312,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsExcellent torch but price drastically decreased in just one day",
                 "body": "",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "Sarbajit Sen",
@@ -15330,7 +15326,7 @@ const catalogData = [
                 "rating": 2.0,
                 "title": "2.0 out of 5 starsAgain price",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Ajay Bhopte",
@@ -15386,7 +15382,7 @@ const catalogData = [
                 "rating": 1.0,
                 "title": "1.0 out of 5 starsCheater",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Anoop S.",
@@ -15405,14 +15401,12 @@ const catalogData = [
         "avg_rating": 4.6,
         "sentiment": "Highly Positive",
         "pos_pct": 95.8,
-        "neu_pct": 4.2,
-        "neg_pct": 0.0,
+        "neu_pct": 2.1,
+        "neg_pct": 2.1,
         "strengths": [
             "Last 15days power cut for a day and light service me for 4 to 5 hrs without any problem",
             "I was confused between this & BPL L1000, specs wise both are almost similar, but it is the 'no",
             "This can be kept plugged, in on position, so that it will illuminate automatically in case of power cut",
-            "I have tested the emergency light by charging for 20Hrs and discharging the light in 40LED glowing mode",
-            "The light is working fine it gave me 18 hours of continuous lighting time with single full char",
             "It's luminance is very bright even if you flash it on wall it will radiance all its light",
             "City like Bangalore where frequent power cuts are seen, this product works perfect with just what's needed bright",
             "It has both 40 LED and 20 LED light control which is sufficint for lighting a room/hall",
@@ -15422,23 +15416,35 @@ const catalogData = [
             "Quality of LED lights are amazing and the battery backup works very good than the other emergency lights",
             "0 and received the product today, All thanks to must trust able and fast couri",
             "Didn't got much occurrences of power cut to check out how it performs but i",
-            "Eveready HL-51 LED Emergency Light Delivery Leadtime: Delivered as per the commit of 6-8 days",
             "It has a place so that we can keep the charging cord at the bottom",
             "It is good for room illumination with 40 leds and as a study lamp with 20 leds",
             "Good Product from Eveready Ordered the Emergency light on Monday(21st April) and received it on next day",
             "I have chosen this again because I am very much satisfied with this product",
-            "Light weight and light is more bright easy to read book in bright mode"
+            "It is very luminous at night for study purposes as well as other works",
+            "Light weight and light is more bright easy to read book in bright mode",
+            "Nice product Flipkart delivered the light with in two days after received charge for 8hrs continues",
+            "Wonderful Its working fine for me have enough glow and light in the dark"
         ],
-        "improvements": [],
-        "complaints": [],
-        "summary": "This product has 96% positive reviews. customers heavily praise the following aspects. it works for 12 to 14 hours after full charge that too 40 led switched on. the battery backup works very good than the other emergency lights. the product is a great choice for lighting a room or bedroom. it is a great choice for a home or office. it is a great choice for a home or office. it is a great choice for a home or office. it is a great choice for.............. the.. the. it",
+        "improvements": [
+            "Brightness level could be enhanced",
+            "Light quality/output needs attention",
+            "Delivery handling and packaging need improvement"
+        ],
+        "complaints": [
+            "I have tested the emergency light by charging for 20Hrs and discharging the light in 40LED glowing mode",
+            "The light is working fine it gave me 18 hours of continuous lighting time with single full char",
+            "1181   Delivered next day itself in Mumbai,Product came from warehouse in Bhivandi",
+            "Order ID: OD31022084060 Date: 22 October, 2013 4:57 PM Total: Rs",
+            "The product was already cha"
+        ],
+        "summary": "This product has 96% positive reviews. customers heavily praise the following aspects: Last 15days power cut for a day and light service me for 4 to 5 hrs without any problem.",
         "aspects": [
             {
                 "name": "Brightness",
                 "count": 57,
                 "pos": 54,
-                "neg": 0,
-                "summary": "Reviews regarding brightness: Best emergency light in the market,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,",
+                "neg": 1,
+                "summary": "Reviews regarding brightness: Best emergency light in the market,,, and,, Eveready. Overall Lightweight Good Look Urgent Lig. Really Nice Negative points:- 1-changing cable is not detachable, it is fixed with the light, there is a storage",
                 "quotes": [
                     "Good choice . Outstanding light",
                     "Best in the market! Best emergency light in the market,,,,,,,,  Eveready",
@@ -15450,9 +15456,9 @@ const catalogData = [
             {
                 "name": "Battery / Power",
                 "count": 44,
-                "pos": 41,
-                "neg": 0,
-                "summary": "Battery life is great, 3000mah battery life. a total of 24 leds will lit all 24 leds.",
+                "pos": 42,
+                "neg": 1,
+                "summary": "Battery life is great. it works for 12 to 14 hours after full charge that too 40 led switched on.",
                 "quotes": [
                     "Mind-blowing purchase Nice product and battery  backup is so good",
                     "Very Good Good Product...Using it from 1 year..No problem..and the battery life is great..",
@@ -15464,8 +15470,8 @@ const catalogData = [
             {
                 "name": "Reliability",
                 "count": 27,
-                "pos": 25,
-                "neg": 0,
+                "pos": 26,
+                "neg": 1,
                 "summary": "It works for 12 to 14 hours after full charge that too 40 led switched on. the battery life is great.",
                 "quotes": [
                     "Very Good Good Product...Using it from 1 year..No problem..and the battery life is great..",
@@ -15478,9 +15484,9 @@ const catalogData = [
             {
                 "name": "Usability",
                 "count": 25,
-                "pos": 24,
+                "pos": 25,
                 "neg": 0,
-                "summary": "Efffective emergency light for home use Eveready HL 51 - (Yellow) LED emergency light. a good emergency light with great features.",
+                "summary": "Efffective emergency light for home use Eveready HL 51 - (Yellow) LED Emergency Light Brand - Eveready (Old and Trusted) Appearance - Normal for a LED emergency light Brightness - Adequate Brightness for",
                 "quotes": [
                     "Pretty good Best in the market I am using this light last 10 days it's very easy to carrying out anywhere..... Superb",
                     "Must buy! Super! A nice sturdy and luminous product. Definitely worth buying. It\u2019s two light modes make it more convenient to use.",
@@ -15492,9 +15498,9 @@ const catalogData = [
             {
                 "name": "Value for Money",
                 "count": 24,
-                "pos": 22,
+                "pos": 23,
                 "neg": 0,
-                "summary": "I bought this on flipkart on offer price. Really Nice Product width is too big and wall mount pin not comfortable.",
+                "summary": "I bought this on flipkart on offer price. Really Nice Product width is too big and wall mount pin not comfortable still not using just checking and waiting for using.",
                 "quotes": [
                     "Value-for-money Nice Product",
                     "Worth every penny Very Good Product,   Thank you Flipkart\ud83d\ude0a\ud83d\ude0a\ud83d\ude0a",
@@ -15506,9 +15512,9 @@ const catalogData = [
             {
                 "name": "Packaging & Delivery",
                 "count": 21,
-                "pos": 21,
-                "neg": 0,
-                "summary": "Flipkart delivered the light with in two days after receiving charge for 8hrs continues. i got the product before one day earlier, I am very happy regarding flipkart delivery.",
+                "pos": 19,
+                "neg": 1,
+                "summary": "Packaging was nice when i got the product before one day earlier. flipkart delivery is fast recived whithin 3 days.",
                 "quotes": [
                     "Terrific purchase nice product and prompt delivery by flipkart.very good product with reasonable price.",
                     "Simply awesome Good quality product. Fast delivery. Great performance... Probably the best in its kind and range.",
@@ -15520,9 +15526,9 @@ const catalogData = [
             {
                 "name": "Build Quality",
                 "count": 12,
-                "pos": 12,
+                "pos": 11,
                 "neg": 0,
-                "summary": "Plastic body is very stiff and light is more bright easy to read book in bright mode. good build quality. good quality. good quality.",
+                "summary": "The plastic body is very stiff. Light weight and light is more bright easy to read book in bright mode. heavy battery sufficient light, good brand.",
                 "quotes": [
                     "Wonderful Nice product. Look and feel is very good. Battery back up is very good up to 8 hrs +. Very helpful when power failure.",
                     "Must buy! Super! A nice sturdy and luminous product. Definitely worth buying. It\u2019s two light modes make it more convenient to use.",
@@ -15534,9 +15540,9 @@ const catalogData = [
             {
                 "name": "Appearance",
                 "count": 10,
-                "pos": 9,
+                "pos": 10,
                 "neg": 0,
-                "summary": "A total of 24 leds Bright light will lit all 24 leds Low light will lit up only 8 leds Lantern is Lightweight Charging indicator is red colour a. Looks, Back up, but charging led light is very. If anyone is looking for emergency you",
+                "summary": "Reviews regarding Appearance: Overall Lightweight Good Look Urgent Lig. Good Product Good Product 1) Long Battery backup 2) Easy to carry 3) Gentle Look 4) Two mode lightning 5) Wait-less 6) It's wall mountable. Highly recommended Got Eveready HL 51",
                 "quotes": [
                     "Wonderful Nice product. Look and feel is very good. Battery back up is very good up to 8 hrs +. Very helpful when power failure.",
                     "Just wow! It's pretty good nice looking . It has a place so that we can keep the charging cord at the bottom . Flipkart had packed it well . I loved it",
@@ -15548,9 +15554,9 @@ const catalogData = [
             {
                 "name": "Size & Portability",
                 "count": 8,
-                "pos": 7,
+                "pos": 8,
                 "neg": 0,
-                "summary": "Good product. good product. good product. good product.",
+                "summary": "Reviews regarding Size & Portability: Good Product. Long battery backup. Easy to carry.",
                 "quotes": [
                     "Good one Good light. Not too bulky. Very bright light. Good enough for 1200 Rs. Don't buy for higher price.. Not worth it.",
                     "good bright this price range light is good. charging is very fast. easy to carry. buying this light is worth this can usefull any ware. flip cart delivery is fast recived whithin 3 days",
@@ -15601,7 +15607,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0\u2022",
                 "body": "Order ID: OD31022084060 Date: 22 October, 2013 4:57 PM Total: Rs. 1181   Delivered next day itself in Mumbai,Product came from warehouse in Bhivandi.Good product packaging. The product was already cha...",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Sushant Waghmare, Pune",
@@ -15629,7 +15635,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Very Good",
                 "body": "Good Product...Using it from 1 year..No problem..and the battery life is great..",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Tipas Kumar, Danara",
@@ -15727,7 +15733,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Very Good",
                 "body": "Very nice emergency light. It is very luminous at night for study purposes as well as other works. I got it at a special price of Rs.975 only. Thanks Flipkart for wonderful experience. But be sure of ...",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Flipkart Customer, Krishna District",
@@ -15755,7 +15761,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022No problems so far....",
                 "body": "i have tested the emergency light by charging for 20Hrs and discharging the light in 40LED glowing mode. the light is working fine it gave me 18 hours of continuous lighting time with single full char...",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Parthiban  K, Chennai",
@@ -15951,7 +15957,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Very nice overall product",
                 "body": "Pros:   * Very good battery backup   * Brighter than my earlier BPL CFL emergency lamp  * Choice to select two brightness levels   * Easy to carry  Cons:  * The front transparent cover looks fimsy and...",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "A very good Product",
@@ -15965,7 +15971,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Eveready HL-51 LED Emergency Light",
                 "body": "Delivery Leadtime: Delivered as per the commit of 6-8 days. Ordered on 26-Nov, Delivered on 4-Dec (I wasn't at home on 3-Dec).  Packaging : Well done.  Product : Good build quality. So far tested upto...",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "too good",
@@ -16242,9 +16248,9 @@ const catalogData = [
         "reviews": 295,
         "avg_rating": 4.4,
         "sentiment": "Highly Positive",
-        "pos_pct": 84.1,
-        "neu_pct": 10.2,
-        "neg_pct": 5.8,
+        "pos_pct": 83.4,
+        "neu_pct": 9.5,
+        "neg_pct": 7.1,
         "strengths": [
             "I havn't got chance to runt it for lognger time but works very fine 2 hrs without any issue",
             "Works well and I have been using this product for more than 2 months, I will recommend this product",
@@ -16256,10 +16262,10 @@ const catalogData = [
             "Brilliant This is Amazing product, outperforms its competitors, really give more than 10 Hours of Backup in full lighting",
             "Its performance is really very good, battery standby time is outstanding and it can also used as a study lamp",
             "I have purchased another Eveready led product as well 3 years ago and still didn't faced any issues",
+            "Well, I find better than others in the market plus Eveready has its own brand value in market",
             "Very Good Product The lighting is very bright and the battery backup is of impressive 8 hours at a stretch",
             "The charging time is around 10-12 hrs and it will give you a backup of around 8-9 hrs",
             "Mind-blowing purchase 16+ hrs Backup Light is bright enough for reading Gets hot under the handle while charging",
-            "A like two functions of this product that is overcharging protection and over-discharging protection   which helps for",
             "Economically efficient- thank u flipkart I am much satisfied with the product especially with the flipkart's pricing",
             "Although, the colour I got was coffee colour and not bright red as shown in the picture",
             "Best part is that you can use it as a portable table lamp and also use during power cuts",
@@ -16268,24 +16274,25 @@ const catalogData = [
             "Charging cable is very short so u need to use a table near the plug point"
         ],
         "improvements": [
-            "Light quality/output needs attention",
-            "Product lifespan needs to be extended"
+            "Charging system needs improvement",
+            "Brightness level could be enhanced",
+            "Light quality/output needs attention"
         ],
         "complaints": [
+            "A like two functions of this product that is overcharging protection and over-discharging protection   which helps for",
             "Very poor National waste, don't buy, only working warranty period, after the warranty period it's not working",
-            "I don't use this as study lamp but the function is there and work well",
+            "The light is bright and enough to light area up when it is dam dark",
             "The product is showing some misbehavior, This is really disturbing and troubling",
-            "Very poor Product is very cheap quality light is not working properly",
-            "I have used the product for last 2 months"
+            "Very poor Product is very cheap quality light is not working properly"
         ],
-        "summary": "This product has 84% positive reviews. customers heavily praise the following aspects. the product is comparably smaller in size, expected to be bigger. the colour is not RED instead it Coffee/ Chocolate colour. the product is really very good, battery standby time is outstanding. it will give you a backup of around 8-9 hrs. the product is a good product. it is a great product. it is a great product. it is a great product. it is a.....................",
+        "summary": "This product has 83% positive reviews. I have been using this product for more than 2 months. the product is comparably smaller in size, expected to be bigger but powerful.",
         "aspects": [
             {
                 "name": "Brightness",
                 "count": 102,
-                "pos": 87,
-                "neg": 4,
-                "summary": "Reviews regarding Brightness: Pros: Emergency light plus flashlight on its rear end. i switched on both the lights just to. LED is quite bright and serves the purpose well.",
+                "pos": 83,
+                "neg": 6,
+                "summary": "Awsummm Piece Good design, bright light, long hours of lightning. this is really nice product, very good quality light, gives almost 6 to 7 hours of continuous usage.",
                 "quotes": [
                     "Fabulous! Best light",
                     "Fabulous! Most light in it",
@@ -16297,9 +16304,9 @@ const catalogData = [
             {
                 "name": "Battery / Power",
                 "count": 79,
-                "pos": 67,
-                "neg": 5,
-                "summary": "Varry bright LED light anvarry powerful batry backup. the filipkart is a varry fast dilavary and nice parking thank you filipkart and ekart.",
+                "pos": 63,
+                "neg": 8,
+                "summary": "Varry bright LED light anvarry powerful batry backup and the filipkart is a nice parking thank you filipcart and ekart. good battery life and highly versatile.",
                 "quotes": [
                     "Delightful Long backup",
                     "Fabulous! good battery .",
@@ -16312,8 +16319,8 @@ const catalogData = [
                 "name": "Value for Money",
                 "count": 74,
                 "pos": 63,
-                "neg": 5,
-                "summary": "Value for money Nice product in terms of battery backup and light.",
+                "neg": 7,
+                "summary": "Value for money Nice product in terms of battery backup and light. good value for ur money.",
                 "quotes": [
                     "Worth the money Good",
                     "Worth every penny Nice",
@@ -16325,9 +16332,9 @@ const catalogData = [
             {
                 "name": "Reliability",
                 "count": 58,
-                "pos": 44,
+                "pos": 45,
                 "neg": 7,
-                "summary": "It works for at least 8-9 hours with both the lights. i love it and havn't got chance to runt it for lognger time.",
+                "summary": "This emergency works for at least 8-9 hours with both the lights. Worthful and Economy working fine. works fine 2 hrs without any issue.",
                 "quotes": [
                     "Worthless Not for work",
                     "Excellent Does its work",
@@ -16340,8 +16347,8 @@ const catalogData = [
                 "name": "Usability",
                 "count": 46,
                 "pos": 38,
-                "neg": 2,
-                "summary": "The product is very handy and easy to use. it can also be used as a study lamp.",
+                "neg": 3,
+                "summary": "A like two functions of this product that is overcharging protection and over-discharging protection which helps for. Overall Good I have not used as I have 24 hrs of expriance using this product.",
                 "quotes": [
                     "Best in the market! Best product emergency use thx so much everyday",
                     "Just wow! A good product. The lantern is very useful during emergencies.",
@@ -16354,7 +16361,7 @@ const catalogData = [
                 "name": "Packaging & Delivery",
                 "count": 31,
                 "pos": 30,
-                "neg": 0,
+                "neg": 1,
                 "summary": "Flipkart delivered it well in time. no damages to the outer box packing and internal original box was intact.",
                 "quotes": [
                     "Excellent Good working. Good packaging. Good quality.",
@@ -16367,9 +16374,9 @@ const catalogData = [
             {
                 "name": "Build Quality",
                 "count": 23,
-                "pos": 18,
-                "neg": 1,
-                "summary": "Good design, bright light, long hours of lightning. good product. strong light and sturdy products.",
+                "pos": 19,
+                "neg": 0,
+                "summary": "Awsummm Piece Good design, bright light, long hours of lightning. good product The product feels good and made be believe that its battery may be strong due to its weight.",
                 "quotes": [
                     "Wonderful Heavy duty",
                     "Brilliant Nice Product, Heavy Plastic, Good Lighting",
@@ -16381,9 +16388,9 @@ const catalogData = [
             {
                 "name": "Appearance",
                 "count": 23,
-                "pos": 22,
-                "neg": 0,
-                "summary": "Red color is very cool. Normal price looks higher though. color of led is pure white.",
+                "pos": 20,
+                "neg": 1,
+                "summary": "Reviews regarding Appearance: Red Color is very cool. Normal price looks higher though. color of led is pure white.",
                 "quotes": [
                     "Highly recommended Very beautiful led light",
                     "Terrific purchase Very beautiful quality thank you",
@@ -16397,7 +16404,7 @@ const catalogData = [
                 "count": 12,
                 "pos": 11,
                 "neg": 0,
-                "summary": "Nice product got it in 1000 bucks in big billion days. size & portability: a good size.",
+                "summary": "Nice Product Got it in 1000 bucks in big billion days. the product is comparably smaller in size, expected to be bigger nevertheless powerful and sufficient lighting with long ba.",
                 "quotes": [
                     "Super! Awesome Bought it for Rs1073 in Big Billion days.  It lights the whole room",
                     "Excellent Product I am happy with product.. It portable and easy to handle and carrying any where.  Thank you Flipkart and EverReady for their service.",
@@ -16567,7 +16574,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Good for students anytime.",
                 "body": "This emergency works for at least 8-9 hours with both the lights. This is my 3rd time that I have purchased this. 2nd time from flipkart but last experience was not good Coz that didnt worked for a lo...",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Umesh Sasankota, Pune",
@@ -16588,7 +16595,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022price is high",
                 "body": "overall product is good . color of led is pure white. battery backup is awesome . a like two functions of this product that is overcharging protection and over-discharging protection   which helps for...",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Worthful and Economy",
@@ -16609,14 +16616,14 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Overall Good",
                 "body": "I have not yet used as I have 24 hrs of expriance using this product. Well, I find better than others in the market plus Eveready has its own brand value in market. Hope to see the same like others po...",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "After a month usage",
                 "rating": 4.0,
                 "title": "4.0\u2022After a month usage",
                 "body": "A must have...grab one before summer hits. i am happy with performance of the product. The light is bright and enough to light area up when it is dam dark.",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Ankit patel",
@@ -16630,7 +16637,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Eveready Emergency Light - 52 LED",
                 "body": "Advantages: 1. 180 degree rotatable light diaphragm that can be used to enhance luminosity at dark 2. Other side of the image has a circular light like Torch that is very handy to focus at objects at night!",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Nidhi Gupta, Bangalore",
@@ -16651,7 +16658,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Product is very good",
                 "body": "Eveready HL-52 is a very good Emergency Light. I am using it.Both as torch ight and  a study light also.Flipkart delivered it well in time ,in good condition. one thing i find odd in it  is the power ...",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Good product",
@@ -16707,7 +16714,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Good product but delivery was very late",
                 "body": "Delivery was severely delayed. Infact, there was no movement at all until I wrote an email to Flipkart. I understand it was because of Hudhud cyclone. But I am happy that once I informed to Flipkart, ...",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Good and handy product",
@@ -16756,7 +16763,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Eveready 39 LED Emergency Light not 52",
                 "body": "When I see Model No is HL 52 LED  Emergency Light from flipcart, I thought totally there will be 52 LED's but only (30+9) =39 LED's and colour I got is different from displayed in website. I got dark ...",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Vamshi  Kota",
@@ -16770,14 +16777,14 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Good Product",
                 "body": "Its a good product. I bought this on deal of the day.. so i am happy with the price... The sound while changing to study lamp is annoying... overall its worth to buy....",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Debabrata Kundu, Kolkata",
                 "rating": 4.0,
                 "title": "4.0\u2022good product",
                 "body": "i bought this product from flipkart 3 month ago. But after purchasing i visited a mall near my house & found that the price is lower than flipkart price in kolkata. so, me little disappointed.  the li...",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Nice Product",
@@ -16903,7 +16910,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0\u2022Strong light and sturdy products",
                 "body": "The product feel good and made be believe that its battery may be strong due to its weight. Light is very strong and bright.  I don't use this as study lamp but the function is there and work well.   ...",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "Good product",
@@ -17001,7 +17008,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0\u2022Good product",
                 "body": "Nice product, Its is a good product for house use. Battery backup is as expected, the build quality is good.  Go ahead with this product its a good product with value.",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Vijayaganapathi R",
@@ -17022,7 +17029,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0\u2022Emerging Light to be EverReady!!!!!",
                 "body": "This emergency light is quite handy for me as it has served me alot in various ways much to my memorable day of having a candle-light (LED-LIGHT) dinner during power cut-offs. Also very useful as a to...",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Smit Christian",
@@ -17071,7 +17078,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0\u2022Very nice",
                 "body": "The only shortcoming I felt is that the cable lenght of this product. Its too short. But apart from that its really quite handy. Works well so far with lights going on and off..Tilting of the main lig...",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Praveen, Bangalore",
@@ -17379,7 +17386,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Very Good",
                 "body": "A must buy for long-term use. Been using the same product for last 3 years in my lab. Made me buy for my home also. Everything is best in this product. Only demerit - weight is little bit on heavier s...",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Dipankar Dhabak, Basirhat",
@@ -17526,7 +17533,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0\u2022Durable",
                 "body": "Been using this product for almost 3 years now. No problems encountered. Only slight fallback is short charging cable. Worth the buy.",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Excellent",
@@ -18482,9 +18489,9 @@ const catalogData = [
         "reviews": 199,
         "avg_rating": 3.7,
         "sentiment": "Highly Positive",
-        "pos_pct": 62.3,
+        "pos_pct": 61.8,
         "neu_pct": 13.1,
-        "neg_pct": 24.6,
+        "neg_pct": 25.1,
         "strengths": [
             "Though it no longer stays on for quite that duration, but it is a good value for the money",
             "Jokes a part its very decent product, easy to carry (top handle than the side handle), good LED lights",
@@ -18505,7 +18512,7 @@ const catalogData = [
             "I have been using this light more than 2 yrs",
             "Awesome Nice product, not used a lot but light is good for a small apartment rooms",
             "Good Emergency Light For Its Price One of the wonderful design",
-            "I never expected this type of product from everdedy"
+            "This is my second purchase of the same product"
         ],
         "improvements": [
             "Price-to-value ratio could be better",
@@ -18519,14 +18526,14 @@ const catalogData = [
             "Slightly disappointed No battery backup and it consumes more battery take more time for charging",
             "Dont buy this product wastage of money and not working after 15 days from buy"
         ],
-        "summary": "This product has 62% positive reviews. customers heavily praise the following aspects. the price-to-value ratio could be better. battery performance needs improvement. watt power is quite lower but in a smaller room its quite adeq. kool is a great product for those who face frequent power cuts. a good product for those who have frequent power cuts. a good product for those who have frequent power cuts. a good product for those who have frequent power cuts...........................",
+        "summary": "This product has 62% positive reviews. watt power is quite lower but in a smaller room its quite adeq. good product for those who face frequent power cuts.",
         "aspects": [
             {
                 "name": "Value for Money",
                 "count": 44,
-                "pos": 30,
-                "neg": 11,
-                "summary": "Good emergency light for its price is one of the beat brands. Worth every penny Good and so Useful product.",
+                "pos": 29,
+                "neg": 12,
+                "summary": "Good Emergency Light For Its Price One of the wonderful design. Worth every penny Good and so Useful product. Fair As per the price, light is not sufficient to cover the room.",
                 "quotes": [
                     "Worth every penny Nice",
                     "Worth every penny good",
@@ -18538,8 +18545,8 @@ const catalogData = [
             {
                 "name": "Brightness",
                 "count": 38,
-                "pos": 22,
-                "neg": 9,
+                "pos": 21,
+                "neg": 10,
                 "summary": "Emergency light is giving full light gd brightnesd. light quality is not good.",
                 "quotes": [
                     "Very Good I like this light",
@@ -18552,9 +18559,9 @@ const catalogData = [
             {
                 "name": "Battery / Power",
                 "count": 27,
-                "pos": 13,
-                "neg": 12,
-                "summary": "Battery backup is actually nearly 3-4 hours for 24 LEDs depending on the u.",
+                "pos": 12,
+                "neg": 13,
+                "summary": "The backup is actually nearly 3-4 hours for 24 LEDs depending on the u.",
                 "quotes": [
                     "Decent product Battery only 30 minutes",
                     "Terrible product Batery backup is not good",
@@ -18568,7 +18575,7 @@ const catalogData = [
                 "count": 21,
                 "pos": 13,
                 "neg": 7,
-                "summary": "Gd product is good I like it easy to use delivery ws fast I got it on time emergency light is giving full light gd brightnesd. gd light has very very switch issue nd no battery life.",
+                "summary": "Light weight, good looking design, easy to charge, pocket friendly priced and can be hanged as a lantern almost.",
                 "quotes": [
                     "Worth the money not yet used",
                     "Wonderful Good product very useful",
@@ -18580,9 +18587,9 @@ const catalogData = [
             {
                 "name": "Reliability",
                 "count": 19,
-                "pos": 5,
-                "neg": 12,
-                "summary": "Poor product Product is not working after 1 month Poor battery backup.",
+                "pos": 6,
+                "neg": 11,
+                "summary": "A better product on/off button doesn't work properly. Very poor It's not working properly. Half of the led lights not working.",
                 "quotes": [
                     "Nice Nice work",
                     "Terrific purchase Long life",
@@ -18596,7 +18603,7 @@ const catalogData = [
                 "count": 15,
                 "pos": 11,
                 "neg": 3,
-                "summary": "Nice Nice product but small in size. a big billion day sale under 600 bucks.",
+                "summary": "Great Nice products but small in size. Worth the money Bought it on a big billion day sale under 600 bucks.",
                 "quotes": [
                     "Must buy! Compact and best",
                     "Waste of money! size is too small",
@@ -18610,7 +18617,7 @@ const catalogData = [
                 "count": 6,
                 "pos": 6,
                 "neg": 0,
-                "summary": "Good emergency light for its price. good design - charge cable wire is. light weight, good looking design, easy and fast to charge.",
+                "summary": "Good design - charge cable wire is. light weight, good looking design, easy to charge, pocket friendly priced and can be hanged as a lantern almost.",
                 "quotes": [
                     "Good product Nice design. Long battery life. Adequate lighting.",
                     "Good quality product Good for this price. Light weight. 2way functions.",
@@ -18622,8 +18629,8 @@ const catalogData = [
             {
                 "name": "Appearance",
                 "count": 6,
-                "pos": 6,
-                "neg": 0,
+                "pos": 5,
+                "neg": 1,
                 "summary": "Reviews regarding Appearance: VERY BEAUTIFUL PRODUCT FROM FLIPKART. Light weight, good looking design, easy and fast to charge, pocket friendly priced and can be hanged as a lantern almost.",
                 "quotes": [
                     "Just wow! excellent product\u3002colour is good..love it",
@@ -18638,7 +18645,7 @@ const catalogData = [
                 "count": 4,
                 "pos": 4,
                 "neg": 0,
-                "summary": "Gd product Dis product is good I like it easy to use delivery ws fast I got it on time emergency light is giving full light gd brightnesd. delivered on time by Flipkart.",
+                "summary": "Reviews regarding Packaging & Delivery: Gd product Good I like it easy to use delivery ws fast I got it on time emergency light is giving full light gd brightnesd.",
                 "quotes": [
                     "Value-for-money product is good...but little bit damaged condition...",
                     "Really Nice Nice product bigger then I except Delivery boy behavior very nice very nice person",
@@ -18779,7 +18786,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0\u2022Must buy!",
                 "body": "very worst product. i never expected this type of product from everdedy",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "CHANDRA SEKHAR, Hyderabas",
@@ -19409,7 +19416,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Good quality product",
                 "body": "Working Properly as on Oct 2019",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "ANJUM ARA, Ranchi",
@@ -19696,7 +19703,7 @@ const catalogData = [
                 "rating": 2.0,
                 "title": "2.0\u2022Not value for money",
                 "body": "Unnecessary costly. Neither sufficient light nor battery back up. Only look & brand evaredy. Its better to purchase local item from market",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Raju Das, Kalyani",
@@ -20050,12 +20057,13 @@ const catalogData = [
         "reviews": 100,
         "avg_rating": 4.5,
         "sentiment": "Highly Positive",
-        "pos_pct": 91.0,
-        "neu_pct": 4.0,
+        "pos_pct": 92.0,
+        "neu_pct": 3.0,
         "neg_pct": 5.0,
         "strengths": [
             "Worth the money Little bit saving for my pocket from this festival offer, Thanks to FLIPKART",
             "But better to buy if we have some combo offers from flipkart",
+            "Classy product Supar mastar blaster begin kare chhe boss thanxxxx so much",
             "Good quality product Thnx Flipkart for this 10 batterys 126 Price",
             "Its costlier than the ones available in shop",
             "Excellant battery 10 very nice quality I'm very happy",
@@ -20072,8 +20080,7 @@ const catalogData = [
             "Nice product The one and only",
             "Worth the money Very nice product",
             "Worth every penny Very good product",
-            "Eveready Batteries are good condition",
-            "Value for money"
+            "Eveready Batteries are good condition"
         ],
         "improvements": [
             "Quality control should be tightened"
@@ -20085,14 +20092,14 @@ const catalogData = [
             "Did not meet expectations Weak cell",
             "Terrible product Very low quality"
         ],
-        "summary": "Good quality product Thnx Flipkart for this 10 batterys 126 Price. it's costlier than the ones available in shop. 126 price is less than compare to market. 126 price is good quality. 126 price is good quality. 126 price is good quality. 126 price is good quality. 126 price is good quality. 126 price is good quality. 126 price is good quality. 126 price is good quality. 126 price is good quality..........................",
+        "summary": "This product has 92% positive reviews. customers heavily praise the following aspects: Worth the money Little bit saving for my pocket from this festival offer, Thanks to FLIPKART. good quality product Thnx Flipkart for this 10 batterys 126 Price.",
         "aspects": [
             {
                 "name": "Value for Money",
                 "count": 22,
                 "pos": 20,
                 "neg": 2,
-                "summary": "Reviews regarding value for money: Good quality product Thnx Flipkart for this 10 batterys 126 Price. but available out side low price. Nice and price is less than compare to market. Worth every penny Very nice product. Worth every penny. Worth the money Little bit saving for",
+                "summary": "Reviews regarding Value for money: Good quality product Thnx Flipkart for this 10 batterys 126 Price. but available out side low price. Nice and price is less than compare to market. Worth every penny Very nice product. Worth the money Little bit saving for my pocket from this",
                 "quotes": [
                     "Worth the money Good",
                     "Worth the money Good",
@@ -20106,7 +20113,7 @@ const catalogData = [
                 "count": 8,
                 "pos": 5,
                 "neg": 3,
-                "summary": "I wanted one single pack (10) batteries but it was not possible still i purchased.",
+                "summary": "Delightful battery is working as expected. Eveready batteries are good condition.",
                 "quotes": [
                     "Best in the market! Good battery",
                     "Did not meet expectations Weak cell",
@@ -20134,7 +20141,7 @@ const catalogData = [
                 "count": 2,
                 "pos": 2,
                 "neg": 0,
-                "summary": "Got delivered early expecting it to work good. we are heartly happy in this delivery.",
+                "summary": "We are heartly happy in this delivery. Got delivered early expecting it to work good.",
                 "quotes": [
                     "Must buy! we are heartly happiness in this delivery.",
                     "Wonderful Actually i wanted one single pack (10) batteries but it was not possible still i purchased because it can be used...Got delivered early expecting it to work good"
@@ -20145,7 +20152,7 @@ const catalogData = [
                 "count": 1,
                 "pos": 1,
                 "neg": 0,
-                "summary": "Usability: Wonderful Actually i wanted one single pack (10) batteries but it was not possible still i purchased because it can be used.",
+                "summary": "Reviews regarding Usability: Wonderful Actually i wanted one single pack (10) batteries but it was not possible still i purchased because it can be used.",
                 "quotes": [
                     "Wonderful Actually i wanted one single pack (10) batteries but it was not possible still i purchased because it can be used...Got delivered early expecting it to work good"
                 ]
@@ -20468,7 +20475,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0\u2022Classy product",
                 "body": "Supar mastar blaster begin kare chhe boss thanxxxx so much",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Flipkart Customer, Ballia District",
@@ -20871,16 +20878,16 @@ const catalogData = [
         "reviews": 144,
         "avg_rating": 4.0,
         "sentiment": "Highly Positive",
-        "pos_pct": 67.4,
+        "pos_pct": 66.7,
         "neu_pct": 9.0,
-        "neg_pct": 23.6,
+        "neg_pct": 24.3,
         "strengths": [
-            "Out of 5 starsSasta Hai, Par Long Lasting Nahi",
             "Terrific It's good, nothing to comment on this product",
             "Value-for-money The product is good at this price",
             "Worth the money Value for money",
             "Very responsive and soft Delivery agent",
             "I didn't check but trusting BB",
+            "Out of 5 starsNo damage and good deal",
             "Simply awesome Received good and original AAA Eveready battery",
             "Good quality product Thank you very much",
             "Terrific got without any damage, nice product",
@@ -20893,28 +20900,29 @@ const catalogData = [
             "Highly recommended Good product and service",
             "Terrific purchase Quality products",
             "Classy product Simply superb",
-            "Out of 5 starsNice",
-            "Great product I'm happy"
+            "These batteries are of excellent quality",
+            "Does it's work effectively"
         ],
         "improvements": [
             "Battery performance needs improvement",
             "Product size/weight could be optimized",
-            "Delivery handling and packaging need improvement"
+            "Delivery handling and packaging need improvement",
+            "Product lifespan needs to be extended"
         ],
         "complaints": [
             "Did not meet expectations None of the batteries are working",
             "Please refund my money as all battery are dead",
             "Wanted aa size but by error got aaa size",
             "Ordered heavy duty, bigger size but deliver altra size",
-            "Out of 5 starsOnly two days use battery dead"
+            "Out of 5 starsSasta Hai, Par Long Lasting Nahi"
         ],
-        "summary": "Customers heavily praise the following aspects: Out of 5 starsSasta Hai, Par Long Lasting Nahi. Terrific It's good, nothing to comment on this product. a good quality product thanks to BB. a good battery. out of 5 starsGood battery. Out of 5 starsGood battery. a good quality product. a good quality product. a good quality product. a good quality product. a good quality product. a good quality product. a good quality product. a good..........................",
+        "summary": "This product has 67% positive reviews. customers heavily praise the following aspects: Terrific It's good, nothing to comment on this product. Value-for-money The product is good at this price. Worth the money.",
         "aspects": [
             {
                 "name": "Battery / Power",
                 "count": 18,
-                "pos": 3,
-                "neg": 14,
+                "pos": 4,
+                "neg": 13,
                 "summary": "Reviews regarding Battery / Power: Simply awesome Received good and original AAA Eveready battery. 10 batteries completed within 4 months. none of the 4 batteries were working.",
                 "quotes": [
                     "battery",
@@ -20927,9 +20935,9 @@ const catalogData = [
             {
                 "name": "Value for Money",
                 "count": 16,
-                "pos": 11,
+                "pos": 10,
                 "neg": 4,
-                "summary": "Value for money: Good condition batteries in this price Nice product. Worth every penny Good working. Value-for-money. please refund my money as all battery are dead.",
+                "summary": "Good condition batteries in this price Nice product. Worth every penny Good working. Value-for-money The product is good at this price. Please refund my money as all battery are dead.",
                 "quotes": [
                     "Value-for-money Good",
                     "Worth every penny Good",
@@ -20941,9 +20949,9 @@ const catalogData = [
             {
                 "name": "Reliability",
                 "count": 9,
-                "pos": 1,
-                "neg": 8,
-                "summary": "Reviews regarding Reliability: Worth every penny Good working. did not meet expectations None of the 4 batteries are working.",
+                "pos": 2,
+                "neg": 7,
+                "summary": "Reviews regarding Reliability: Worth every penny Good working. Did not meet expectations None of the batteries are working. product is nit working,please return my money back.",
                 "quotes": [
                     "Non working cells",
                     "defective product",
@@ -20982,9 +20990,9 @@ const catalogData = [
             {
                 "name": "Packaging & Delivery",
                 "count": 4,
-                "pos": 2,
-                "neg": 2,
-                "summary": "Reviews regarding Packaging & Delivery: Terrific got without any damage, nice product. classy product Quick delivery. out of 5 starsNo damage and good deal.",
+                "pos": 3,
+                "neg": 1,
+                "summary": "Reviews regarding Packaging & Delivery: Terrific got without any damage, nice product. out of 5 starsNo damage and good deal.",
                 "quotes": [
                     "discharged product delivered",
                     "out of 5 starsNo damage and good deal",
@@ -21604,7 +21612,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Very Good",
                 "body": "Value of money",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Navinchandra Karambar, Mangaluru",
@@ -21793,7 +21801,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "Long Lasting",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Aniruddha Sinha",
@@ -21856,7 +21864,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "zabardast performance",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Krishnadas Prabhu",
@@ -21870,7 +21878,7 @@ const catalogData = [
                 "rating": 1.0,
                 "title": "bought wrong prodict",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "prabha reddy",
@@ -21912,7 +21920,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "These batteries are of excellent quality.Does it's work effectively .",
                 "body": "",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "Rekha",
@@ -21926,7 +21934,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsSasta Hai, Par Long Lasting Nahi",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "K Durairaj",
@@ -21954,7 +21962,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsNice",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Rupak Dutta",
@@ -21982,7 +21990,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsNo damage and good deal",
                 "body": "",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "Md Fayaz MD",
@@ -22021,9 +22029,9 @@ const catalogData = [
         "reviews": 377,
         "avg_rating": 4.1,
         "sentiment": "Highly Positive",
-        "pos_pct": 71.9,
-        "neu_pct": 16.7,
-        "neg_pct": 11.4,
+        "pos_pct": 72.4,
+        "neu_pct": 13.3,
+        "neg_pct": 14.3,
         "strengths": [
             "Great product Eveready digi LED 180 torch light cum Emergency light works as described gives bright light around 1",
             "It would have been better if company provided the charging cable with the torch itself",
@@ -22050,23 +22058,23 @@ const catalogData = [
             "Battery performance needs improvement",
             "Battery backup duration should be increased",
             "Charging system needs improvement",
-            "Product lifespan needs to be extended"
+            "Light quality/output needs attention"
         ],
         "complaints": [
             "Utterly Disappointed Battery back only 35 40 min after this the light turns very low",
             "Slightly disappointed Seriously this troch Batter backup is only for 30 to 40 min",
             "It takes too long to charge and the usage time is very low",
             "Very poor It takes so much time for charging but not give upto1",
-            "Unsatisfactory Battery backup lasts only 20- 30 min of continuous use"
+            "Out of 5 starsCan be used to light up deity asan during pooja"
         ],
-        "summary": "This product has 72% positive reviews. customers heavily praise the following aspects. great product Eveready digi LED 180 torch light cum Emergency light works as described gives bright light around 1. i could use the torch to see even far away objects like around 200mtrs. i could use the torch to see even far away objects like around 200mtrs. i could use the torch to see even far away objects like around 200mtrs. i could use the torch to see even far..........................",
+        "summary": "This product has 72% positive reviews. customers heavily praise the following aspects: Great product Eveready digi LED 180 torch light cum Emergency light works as described gives bright light around 1.",
         "aspects": [
             {
                 "name": "Value for Money",
                 "count": 67,
                 "pos": 53,
-                "neg": 8,
-                "summary": "Value for money. nice product, value for money. a good product at this price. Worth every penny Bright for the price.",
+                "neg": 9,
+                "summary": "Value-for-money I am writing this after using it for 6 months. it barely lasts for an hour on a full charge.",
                 "quotes": [
                     "Worth the money Good",
                     "Worth the money Good",
@@ -22079,8 +22087,8 @@ const catalogData = [
                 "name": "Brightness",
                 "count": 61,
                 "pos": 46,
-                "neg": 6,
-                "summary": "I am looking for at least 4 hours light service. thnxx Flipkart and everyday. Fantastic product.",
+                "neg": 8,
+                "summary": "I am looking for at least 4 hours light service. Brightness is fine for lamp mode. Mind-blowing purchase Very light in weight nice light.",
                 "quotes": [
                     "out of 5 starsGood light",
                     "Worth every penny Too bright",
@@ -22092,9 +22100,9 @@ const catalogData = [
             {
                 "name": "Battery / Power",
                 "count": 54,
-                "pos": 18,
+                "pos": 20,
                 "neg": 23,
-                "summary": "Reviews regarding Battery / Power: Does the job Battery backup not good. 5 hours good backup time Easy charging with indicators Very good design Very useful Emergency light.",
+                "summary": "Reviews regarding Battery / Power: Does the job Battery back not 4 hours as assured in product specifications. 5 hours good backup time Easy charging with indicators Very good design Very useful Emergency light.",
                 "quotes": [
                     "Not good Battery capacity low",
                     "Moderate Battery backup very low",
@@ -22107,8 +22115,8 @@ const catalogData = [
                 "name": "Usability",
                 "count": 29,
                 "pos": 24,
-                "neg": 2,
-                "summary": "5 hours good backup time Easy charging with indicators Very good design Very useful Emergency light. good product for students to use as lantern to study. light weight and easy to carry.",
+                "neg": 3,
+                "summary": "5 hours good backup time Easy charging with indicators Very good design Very useful Emergency light. Good product for students to use as lantern to study. light weight and easy to carry.",
                 "quotes": [
                     "Does the job Good for use",
                     "Delightful Useful for money",
@@ -22120,9 +22128,9 @@ const catalogData = [
             {
                 "name": "Reliability",
                 "count": 23,
-                "pos": 8,
+                "pos": 9,
                 "neg": 10,
-                "summary": "Great product Eveready digi LED 180 torch light cum Emergency light works as described gives bright light around 1.",
+                "summary": "Great product Eveready digi LED 180 torch light cum Emergency light works as described gives bright light around 1. Value-for-money.",
                 "quotes": [
                     "Just okay Batter life low",
                     "out of 5 starsIt does work",
@@ -22134,9 +22142,9 @@ const catalogData = [
             {
                 "name": "Build Quality",
                 "count": 14,
-                "pos": 12,
+                "pos": 13,
                 "neg": 0,
-                "summary": "Reviews regarding Build Quality: works fine and has decent build quality.",
+                "summary": "Reviews regarding Build Quality: works fine and has decent build quality. good quality product Nice design jhkaas lights.",
                 "quotes": [
                     "Wonderful Durability and design",
                     "Good Very light weight but good",
@@ -22150,7 +22158,7 @@ const catalogData = [
                 "count": 10,
                 "pos": 6,
                 "neg": 2,
-                "summary": "Reviews regarding Size & Portability: Light weight and easy to carry. easy to carry for travel as well.",
+                "summary": "Good quality product Good but size kind of a big. Decent product Size is too big. Moderate Good but not pocket size.",
                 "quotes": [
                     "Waste of money! Big size",
                     "Decent product Size is too big",
@@ -22164,7 +22172,7 @@ const catalogData = [
                 "count": 10,
                 "pos": 9,
                 "neg": 0,
-                "summary": "Reviews regarding Appearance: I am looking for at least 4 hours light service. torch is very attractive. I received green body color.",
+                "summary": "Out of 5 starsReceived the right product but in a different colour.",
                 "quotes": [
                     "Awesome Good brightness looking beautiful",
                     "out of 5 starsGot green colour instead of red",
@@ -24297,7 +24305,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsIndian Brand Quality You Can Trust",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Jaspreet kaur",
@@ -24339,14 +24347,14 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsPrice is reasonable.. product also perfect",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Thimmidi Rashmitha",
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsUse full product",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "KENIL",
@@ -24374,7 +24382,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsNice",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "Premoday Nayak",
@@ -24430,7 +24438,7 @@ const catalogData = [
                 "rating": 3.0,
                 "title": "3.0 out of 5 starsGood enough for Low duration backup.",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "mukesh",
@@ -24444,7 +24452,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsIt is good but it is plastic",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Placeholder",
@@ -24458,7 +24466,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsThankyou",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Amazon Customer",
@@ -24472,7 +24480,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsWorking as Intended. Good for its price.",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "sandeep yadav",
@@ -24493,14 +24501,14 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsLooking good",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Viren",
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsNothing",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "tanuj",
@@ -24535,7 +24543,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsWorks well",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Murugavelmuthu",
@@ -24605,7 +24613,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsEmergency torch",
                 "body": "",
-                "sentiment": "Negative"
+                "sentiment": "Positive"
             },
             {
                 "author": "Alok",
@@ -24710,7 +24718,7 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsNice",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Neutral"
             },
             {
                 "author": "aparajita",
@@ -24738,14 +24746,14 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsPower",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Amazon customer",
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsLight is good",
                 "body": "",
-                "sentiment": "Positive"
+                "sentiment": "Negative"
             },
             {
                 "author": "Vikash kumar",
@@ -24759,7 +24767,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsAll is well",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Vijay Pandey",
@@ -24787,28 +24795,28 @@ const catalogData = [
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsAffordable",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Toby Neuman",
                 "rating": 5.0,
                 "title": "5.0 out of 5 starsSurprisingly good torch. Battery lasts a long time.",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Brainmania",
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsGd product, brightness nt enough",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Prakash",
                 "rating": 4.0,
                 "title": "4.0 out of 5 starsCan be used to light up deity asan during pooja",
                 "body": "",
-                "sentiment": "Neutral"
+                "sentiment": "Negative"
             },
             {
                 "author": "Aravinth",
@@ -24833,8 +24841,8 @@ const catalogData = [
         "reviews": 187,
         "avg_rating": 4.6,
         "sentiment": "Highly Positive",
-        "pos_pct": 90.9,
-        "neu_pct": 5.3,
+        "pos_pct": 91.4,
+        "neu_pct": 4.8,
         "neg_pct": 3.7,
         "strengths": [
             "I will update you if it leaks in storage or inside the room freshener dispenser or clock",
@@ -24869,14 +24877,14 @@ const catalogData = [
             "Terrible product No charge in the battery",
             "Don't waste your money C grade batteries"
         ],
-        "summary": "This product has 91% positive reviews. customers heavily praise the product. the item is good and it was delivered by F Kart in time than anticipated. drained quickly by using kids music car. drained quickly by using kids music car. drained quickly by using kids music car. drained quickly by using kids music car. drained quickly by using kids music car. drained quickly by using kids music car. drained quickly by using kids music car. d..........................",
+        "summary": "This product has 91% positive reviews. customers heavily praise this product. the item is good and it was delivered by F Kart in time than anticipated. drained quickly by using kids music car.",
         "aspects": [
             {
                 "name": "Value for Money",
                 "count": 31,
                 "pos": 28,
                 "neg": 3,
-                "summary": "Value for money with 2035 expiry. Not recommended at all Waste of money. Terrific purchase Original product bought at good price. classy product Good battery with good backup and price. Simply awesome Value for money. Worth every penny Good quality product at reasonable price.",
+                "summary": "Value for money with 2035 expiry. Not recommended at all Waste of money. Terrific purchase Original product bought at good price. classy product Good battery with good backup and price. Simply awesome Value for money.",
                 "quotes": [
                     "Worth the money Good",
                     "Value-for-money Good",
@@ -24890,7 +24898,7 @@ const catalogData = [
                 "count": 27,
                 "pos": 23,
                 "neg": 3,
-                "summary": "Review of battery / power: Wonderful Awesome batteries also last month manufactured received. Terrific purchase Powerful and long lasting batteries of Eveready company.",
+                "summary": "Reviews regarding Battery / Power: Wonderful Awesome batteries also last month manufactured received. Terrific purchase Powerful and long lasting batteries of Eveready company.",
                 "quotes": [
                     "Wonderful Nice battery",
                     "Just wow! Good batteries",
@@ -24904,7 +24912,7 @@ const catalogData = [
                 "count": 10,
                 "pos": 8,
                 "neg": 2,
-                "summary": "Excellent batteries work fine. eveready battery works fine.",
+                "summary": "Wonderful Awesome batteries also last month manufactured received. it works same as Duracell battery.",
                 "quotes": [
                     "Great product Working fine",
                     "Classy product Alkaline battery long self life.",
@@ -24918,7 +24926,7 @@ const catalogData = [
                 "count": 6,
                 "pos": 6,
                 "neg": 0,
-                "summary": "Nice  product good person nice delivery. Delivered in time than anticipated.",
+                "summary": "Reviews regarding Packaging & Delivery: Terrific purchase Nice  product good person nice delivery. Worth the money Quality is good, packaging is good.",
                 "quotes": [
                     "Great product Good product, timely delivery",
                     "Good quality product Good.  Packaging. Colour.",
@@ -24930,9 +24938,9 @@ const catalogData = [
             {
                 "name": "Build Quality",
                 "count": 2,
-                "pos": 0,
+                "pos": 1,
                 "neg": 1,
-                "summary": "Reviews regarding Build Quality: I feel it's not a original Eveready battery.",
+                "summary": "I feel it's not a original Eveready battery.",
                 "quotes": [
                     "Very Good Build quality is good",
                     "Not recommended at all Battery drain very fast, even the normal eveready battery works for long time..  I feel it's not a original Eveready battery"
@@ -24943,7 +24951,7 @@ const catalogData = [
                 "count": 2,
                 "pos": 2,
                 "neg": 0,
-                "summary": "Reviews regarding Appearance: Brilliant Quality looks .                       ",
+                "summary": "Reviews regarding Appearance: Brilliant Quality looks .",
                 "quotes": [
                     "Brilliant Quality looks \ud83d\udc4c",
                     "Good quality product Good.  Packaging. Colour."
@@ -24954,7 +24962,7 @@ const catalogData = [
                 "count": 1,
                 "pos": 1,
                 "neg": 0,
-                "summary": "Reviews regarding Usability: a review of the reviews..",
+                "summary": "Reviews regarding Usability: a review.",
                 "quotes": [
                     "Excellent Good useful"
                 ]
@@ -25750,7 +25758,7 @@ const catalogData = [
                 "rating": 4.0,
                 "title": "4.0\u2022Very Good",
                 "body": "Build quality is good",
-                "sentiment": "Neutral"
+                "sentiment": "Positive"
             },
             {
                 "author": "Raju Lama, New Delhi",
@@ -26315,14 +26323,14 @@ const catalogData = [
             "Terrible product Not working properly",
             "Worst battery i have ever seen"
         ],
-        "summary": "80% positive reviews from customers. EVEREADY is a brand name. a digital bp machine. a new battery is recommended for a digital bp machine. a new battery is recommended for a digital bp machine. a new battery is recommended for a digital bp machine. a new battery is recommended for a digital bp machine. a new battery is recommended for a digital bp machine. a new battery is.....................",
+        "summary": "This product has 80% positive reviews. customers heavily praise the following aspects: Wonderful. I have received 2pcs of Eveready ultima pro battery set and one pc.",
         "aspects": [
             {
                 "name": "Value for Money",
                 "count": 7,
                 "pos": 5,
                 "neg": 1,
-                "summary": "Reviews regarding value for money: Useless product Price is too high. Worth every penny Good working. Worth the money What more about EVEREADY.",
+                "summary": "Reviews regarding value for money: Useless product Price is too high. Worth every penny Very. Good If you consider it price wise, it is an average product.",
                 "quotes": [
                     "Worth the money Good",
                     "Worth every penny Very",
@@ -26336,7 +26344,7 @@ const catalogData = [
                 "count": 6,
                 "pos": 4,
                 "neg": 2,
-                "summary": "I received 2pcs of Eveready ultima pro battery set and one pcs of Eveready ultima white colour battery. unsatisfactory Battery drain quickly it's work like normal' battery.",
+                "summary": "Reviews regarding Battery / Power: Wonderful I received 2pcs of Eveready ultima pro battery set. unsatisfactory Battery drain quickly it's work like normal' battery.",
                 "quotes": [
                     "Wonderful Battery is good",
                     "Best in the market! Nyc battery life must buy",
@@ -26364,7 +26372,7 @@ const catalogData = [
                 "count": 3,
                 "pos": 2,
                 "neg": 0,
-                "summary": "I have to use it and review it again after some time. it's for wall clock and it's fit and Working well go its.",
+                "summary": "I use it for wall clock and it's fit and Working well go its.",
                 "quotes": [
                     "Super! I use it's for wall clock and it's fit and  Working well go its",
                     "Good If you consider it price wise, it is an average product. I have to use it and review again after some time.",
@@ -26376,7 +26384,7 @@ const catalogData = [
                 "count": 3,
                 "pos": 2,
                 "neg": 0,
-                "summary": "A small gadget like face suction machine to clock to ac remote. ac remote is a smart phone.",
+                "summary": "Reviews regarding size & Portability: Nice Nice product but product is small bettery.",
                 "quotes": [
                     "Nice Nice product but product is small bettery",
                     "Super! I use it's for wall clock and it's fit and  Working well go its",
@@ -26388,7 +26396,7 @@ const catalogData = [
                 "count": 1,
                 "pos": 1,
                 "neg": 0,
-                "summary": "The Seller is being advised to take a bit more care to maintain the Company's packaging so far unfolded/untwisted/untwisted/untwisted/untwisted/untwisted/untwisted/untwisted/untwisted/untwisted/untwisted/untwisted/un",
+                "summary": "The Seller is being advised to take a bit more care to maintain the Company's packaging so far unfolded/untwisted.",
                 "quotes": [
                     "Worth the money What more to say about EVEREADY !! \ud83d\udc4d\ud83c\udffb I know that it's very difficult, yet the Seller is being advised to take a bit more care to maintain the Company's packaging so far unfolded/untwisted. Rest of ..."
                 ]
@@ -26398,7 +26406,7 @@ const catalogData = [
                 "count": 1,
                 "pos": 1,
                 "neg": 0,
-                "summary": "Reviews regarding Appearance: Wonderful I received 2pcs of Eveready ultima pro battery set and one pcs of Eveready ultima white colour battery set.",
+                "summary": "Reviews regarding Appearance: Wonderful I received 2pcs of Eveready ultima pro battery set. a pc of a white colour battery.",
                 "quotes": [
                     "Wonderful I received 2pcs of Eveready ultima pro battery set and one pcs of Eveready ultima white colour battery. So that, otherwise batteries are best...."
                 ]

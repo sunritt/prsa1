@@ -617,7 +617,15 @@ def generate_product_summaries(df, model, word2idx):
             tokenizer, summarizer_model = get_summarizer()
             # T5 is typically used with 'summarize: ' prefix
             inputs = tokenizer("summarize: " + text_to_summarize, return_tensors="pt", max_length=1024, truncation=True)
-            outputs = summarizer_model.generate(inputs.input_ids, max_length=220, min_length=140, do_sample=False)
+            outputs = summarizer_model.generate(
+                inputs.input_ids, 
+                max_length=150, 
+                min_length=40, 
+                num_beams=4,
+                no_repeat_ngram_size=3,
+                early_stopping=True,
+                do_sample=False
+            )
             summary_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
             
             # Basic cleanup: capitalize first letter
@@ -697,7 +705,15 @@ def generate_product_summaries(df, model, word2idx):
                 try:
                     tokenizer, summarizer_model = get_summarizer()
                     inputs = tokenizer("summarize: " + aspect_text_to_summarize, return_tensors="pt", max_length=512, truncation=True)
-                    outputs = summarizer_model.generate(inputs.input_ids, max_length=60, min_length=15, do_sample=False)
+                    outputs = summarizer_model.generate(
+                        inputs.input_ids, 
+                        max_length=60, 
+                        min_length=10, 
+                        num_beams=4,
+                        no_repeat_ngram_size=3,
+                        early_stopping=True,
+                        do_sample=False
+                    )
                     aspect_summary = tokenizer.decode(outputs[0], skip_special_tokens=True)
                     if aspect_summary:
                         aspect_summary = aspect_summary[0].upper() + aspect_summary[1:]
